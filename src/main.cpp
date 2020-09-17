@@ -9,10 +9,6 @@
 
 int main()
 {
-    ship * s = new battle_ship(5);
-    ship * s_0 = new unsurprising_ship();
-    ship * s_1 = new surprise_ship();
-
     battle_field bf;
 
     bool b = bf.reveal<std::size_t>({5,4});
