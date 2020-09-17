@@ -1,0 +1,1 @@
+/usr/bin/g++-10  -g   CMakeFiles/battleships.dir/main.cpp.o CMakeFiles/battleships.dir/player.cpp.o CMakeFiles/battleships.dir/ship.cpp.o CMakeFiles/battleships.dir/ships/battle_ship.cpp.o CMakeFiles/battleships.dir/ships/surprise_ship.cpp.o CMakeFiles/battleships.dir/ships/unsurprising_ship.cpp.o  -o battleships 
