@@ -15,11 +15,7 @@ int main()
 
     coordinate_2d<int> coordinate(5,4);
 
-    spdlog::info("{} {} {}", b, coordinate.get_y(), s_1->size());
-
-    delete s;
-    delete s_0;
-    delete s_1;
+    spdlog::info("{} {} {}", b, coordinate.x, coordinate.y);
 
     return 0;
 }
