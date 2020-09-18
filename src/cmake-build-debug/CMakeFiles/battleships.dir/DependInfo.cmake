@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/spector/Projects/CLionProjects/battleships/src/main.cpp" "/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/main.cpp.o"
-  "/home/spector/Projects/CLionProjects/battleships/src/player.cpp" "/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/player.cpp.o"
-  "/home/spector/Projects/CLionProjects/battleships/src/ship.cpp" "/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ship.cpp.o"
-  "/home/spector/Projects/CLionProjects/battleships/src/ships/battle_ship.cpp" "/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ships/battle_ship.cpp.o"
-  "/home/spector/Projects/CLionProjects/battleships/src/ships/surprise_ship.cpp" "/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ships/surprise_ship.cpp.o"
-  "/home/spector/Projects/CLionProjects/battleships/src/ships/unsurprising_ship.cpp" "/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ships/unsurprising_ship.cpp.o"
+  "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/main.cpp" "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/main.cpp.o"
+  "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/player.cpp" "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/player.cpp.o"
+  "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.cpp" "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ship.cpp.o"
+  "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/battle_ship.cpp" "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ships/battle_ship.cpp.o"
+  "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/surprise_ship.cpp" "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ships/surprise_ship.cpp.o"
+  "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/unsurprising_ship.cpp" "/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/CMakeFiles/battleships.dir/ships/unsurprising_ship.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

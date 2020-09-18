@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="battleships">
-				<Option output="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/battleships" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/battleships" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,19 +51,18 @@
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 battleships"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 battleships"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="battleships/fast">
-				<Option output="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/battleships" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug"/>
+				<Option output="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/battleships" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,66 +74,65 @@
 					<Add directory="/usr/local/include"/>
 					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 battleships/fast"/>
-					<CompileFile command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/make -j4 -f &quot;/home/spector/Projects/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 battleships/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/battle_field.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battle_field.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/config.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/config.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/main.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/main.cpp">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/player.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/player.cpp">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/player.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/player.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ship.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.cpp">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ship.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ships/battle_ship.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/battle_ship.cpp">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ships/battle_ship.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/battle_ship.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ships/surprise_ship.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/surprise_ship.cpp">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ships/surprise_ship.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/surprise_ship.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ships/unsurprising_ship.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/unsurprising_ship.cpp">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/ships/unsurprising_ship.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/unsurprising_ship.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/utils/coordinate_2d.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/coordinate_2d.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/utils/non_inclined_segment.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/non_inclined_segment.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/utils/segment.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/segment.h">
 			<Option target="battleships"/>
 		</Unit>
-		<Unit filename="/home/spector/Projects/CLionProjects/battleships/src/CMakeLists.txt">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -17,6 +17,7 @@ private:
 public:
     non_inclined_segment(const coordinate_2d<T> &, const coordinate_2d<T> &);
     [[nodiscard]] bool is_horizontal() const;
+    [[nodiscard]] bool is_valid() const;
     void set_horizontality(bool);
 };
 
@@ -28,7 +29,7 @@ non_inclined_segment<T,L>::non_inclined_segment(const coordinate_2d<T> & begin, 
     this->end = end;
 
     horizontality = begin.get_y() == end.get_y();
-    valid = be
+    valid = horizontality || begin.get_y() == end.get_y();
 }
 
 template <typename T, typename L>
@@ -36,6 +37,13 @@ requires (std::integral<T> || std::floating_point<T>) && (std::floating_point<L>
 bool non_inclined_segment<T,L>::is_horizontal() const
 {
     return horizontality;
+}
+
+template <typename T, typename L>
+requires (std::integral<T> || std::floating_point<T>) && (std::floating_point<L> || std::integral<L>)
+bool non_inclined_segment<T,L>::is_valid() const
+{
+    return valid;
 }
 
 template <typename T, typename L>

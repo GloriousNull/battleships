@@ -11,9 +11,7 @@ int main()
 {
     battle_field bf;
 
-
-
-    bool b = bf.reveal<std::size_t>({5,4});
+    bool b = bf.place_ship<std::size_t>(new surprise_ship(), {{5,4},{4,4}});
 
     coordinate_2d<std::size_t> coordinate(5,4);
     coordinate_2d<std::size_t> coor(10,4);
