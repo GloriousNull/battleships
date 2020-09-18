@@ -6,53 +6,63 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battle_field.h
+/home/spector/Projects/CLionProjects/battleships/src/battle_field.h
 vector
 -
 array
 -
 config.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/config.h
+/home/spector/Projects/CLionProjects/battleships/src/config.h
 ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ship.h
 utils/coordinate_2d.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/coordinate_2d.h
+/home/spector/Projects/CLionProjects/battleships/src/utils/coordinate_2d.h
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/config.h
+/home/spector/Projects/CLionProjects/battleships/src/config.h
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/main.cpp
+/home/spector/Projects/CLionProjects/battleships/src/main.cpp
 spdlog/spdlog.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/spdlog/spdlog.h
+/home/spector/Projects/CLionProjects/battleships/src/spdlog/spdlog.h
 ships/battle_ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/battle_ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ships/battle_ship.h
 ships/surprise_ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/surprise_ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ships/surprise_ship.h
 ships/unsurprising_ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/unsurprising_ship.h
-utils/coordinate_2d.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/coordinate_2d.h
+/home/spector/Projects/CLionProjects/battleships/src/ships/unsurprising_ship.h
+utils/non_inclined_segment.h
+/home/spector/Projects/CLionProjects/battleships/src/utils/non_inclined_segment.h
 battle_field.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battle_field.h
+/home/spector/Projects/CLionProjects/battleships/src/battle_field.h
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ship.h
 cstddef
 -
 functional
 -
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/battle_ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ships/battle_ship.h
 ../ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ship.h
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/surprise_ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ships/surprise_ship.h
 ../ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ship.h
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/unsurprising_ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ships/unsurprising_ship.h
 ../ship.h
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ship.h
+/home/spector/Projects/CLionProjects/battleships/src/ship.h
 
-/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/coordinate_2d.h
+/home/spector/Projects/CLionProjects/battleships/src/utils/coordinate_2d.h
 concepts
 -
+
+/home/spector/Projects/CLionProjects/battleships/src/utils/non_inclined_segment.h
+segment.h
+/home/spector/Projects/CLionProjects/battleships/src/utils/segment.h
+
+/home/spector/Projects/CLionProjects/battleships/src/utils/segment.h
+cmath
+-
+coordinate_2d.h
+/home/spector/Projects/CLionProjects/battleships/src/utils/coordinate_2d.h
 

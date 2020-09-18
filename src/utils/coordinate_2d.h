@@ -8,10 +8,11 @@
 #include <concepts>
 
 template <typename T> requires std::integral<T> || std::floating_point<T>
-struct coordinate_2d
+class coordinate_2d
 {
+private:
     T x, y;
-
+public:
     constexpr coordinate_2d() : x{}, y{} {}
     constexpr coordinate_2d(T x, T y) : x{x}, y{y} {}
     [[nodiscard]] constexpr T get_x() const;

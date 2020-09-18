@@ -24,11 +24,14 @@ private:
 
     std::vector<ship*> ships;
     std::array<std::array<point_info, FIELD_SIZE>, FIELD_SIZE> field;
+
+    template<std::unsigned_integral T>
+    bool is_enough_space_to_place(const std::size_t &, const coordinate_2d<T> &, const coordinate_2d<T> &) const;
 public:
     battle_field() : ships(AMOUNT_OF_SHIPS), field{} {}
     ~battle_field();
-    [[nodiscard]] bool is_all_ships_placed() const;
 
+    [[nodiscard]] bool is_all_ships_placed() const;
     template<std::unsigned_integral T>
     [[nodiscard]] bool place_ship(ship*, const coordinate_2d<T> &, const coordinate_2d<T> &);
     template<std::unsigned_integral T>
@@ -49,18 +52,23 @@ bool battle_field::is_all_ships_placed() const
 template<std::unsigned_integral T>
 bool battle_field::place_ship(ship* ship_ptr, const coordinate_2d<T> & begin, const coordinate_2d<T> & end)
 {
-    std::size_t size = begin.x - end.x ? std::abs(begin.x-end.x) : std::abs(begin.y-end.y);
+    std::size_t size = begin.get_x() - end.get_x() ? std::abs(begin.get_x()-end.get_x()) : std::abs(begin.get_y()-end.get_y());
 
     if (ship_ptr->size() != size)
+    {
+        delete ship_ptr;
+
         return false;
+    }
+
 }
 
 template <std::unsigned_integral T>
 bool battle_field::reveal(const coordinate_2d<T> & point)
 {
-    if (field[point.x][point.y].is_hidden)
+    if (field[point.get_x()][point.get_y()].is_hidden)
     {
-        field[point.x][point.y].is_hidden = false;
+        field[point.get_x()][point.get_y()].is_hidden = false;
 
         return true;
     }
