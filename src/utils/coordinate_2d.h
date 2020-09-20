@@ -5,8 +5,6 @@
 #ifndef BATTLESHIPS_COORDINATE_2D_H
 #define BATTLESHIPS_COORDINATE_2D_H
 
-#include <concepts>
-
 template <typename T> requires std::integral<T> || std::floating_point<T>
 class coordinate_2d
 {
@@ -17,8 +15,8 @@ public:
     constexpr coordinate_2d(T x, T y) : x{x}, y{y} {}
     [[nodiscard]] constexpr T get_x() const;
     [[nodiscard]] constexpr T get_y() const;
-    constexpr void set_x(T);
-    constexpr void set_y(T);
+    constexpr void set_x(const T &);
+    constexpr void set_y(const T &);
 };
 
 template<typename T> requires std::integral<T> || std::floating_point<T>
@@ -34,13 +32,13 @@ constexpr T coordinate_2d<T>::get_y() const
 }
 
 template<typename T> requires std::integral<T> || std::floating_point<T>
-constexpr void coordinate_2d<T>::set_x(T _x)
+constexpr void coordinate_2d<T>::set_x(const T & _x)
 {
     x = _x;
 }
 
 template<typename T> requires std::integral<T> || std::floating_point<T>
-constexpr void coordinate_2d<T>::set_y(T _y)
+constexpr void coordinate_2d<T>::set_y(const T & _y)
 {
     y = _y;
 }

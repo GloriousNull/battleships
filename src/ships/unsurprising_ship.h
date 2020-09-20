@@ -10,9 +10,9 @@
 class unsurprising_ship : public ship
 {
 private:
-    [[nodiscard]] std::function<void()> on_destroy_iml() const override;
+    [[nodiscard]] std::function<void()> on_destroy_impl() const override;
 public:
-    unsurprising_ship();
+    explicit unsurprising_ship(const std::size_t & size) : ship(size) {}
 };
 
 

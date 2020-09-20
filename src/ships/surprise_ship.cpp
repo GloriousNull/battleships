@@ -4,12 +4,7 @@
 
 #include "surprise_ship.h"
 
-surprise_ship::surprise_ship()
-{
-    _size = 1;
-}
-
-std::function<void()> surprise_ship::on_destroy_iml() const
+std::function<void()> surprise_ship::on_destroy_impl() const
 {
     //TODO
     return [](){};

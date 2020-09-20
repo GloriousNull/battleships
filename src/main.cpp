@@ -1,24 +1,21 @@
-#include "spdlog/spdlog.h"
-
 #include "ships/battle_ship.h"
 #include "ships/surprise_ship.h"
 #include "ships/unsurprising_ship.h"
 
 #include "utils/non_inclined_segment.h"
 #include "battle_field.h"
+#include "player.h"
 
 int main()
 {
-    battle_field bf;
+    player p_0, p_1;
 
-    bool b = bf.place_ship<std::size_t>(new surprise_ship(), {{5,4},{4,4}});
+    bool b = p_1.place_ship<std::size_t>(std::make_shared<battle_ship>(battle_ship(2)), {{2,2},{2,3}});
 
-    coordinate_2d<std::size_t> coordinate(5,4);
-    coordinate_2d<std::size_t> coor(10,4);
+    auto[is_revealed, func] = p_0.attack<std::size_t>(p_1,{2,2});
 
-    segment<std::size_t, std::size_t> * seg = new non_inclined_segment<std::size_t, std::size_t>(coordinate,coor);
-
-    spdlog::info("{} {} {}", b, seg->get_length(), coordinate.get_y());
+    if (func && b)
+        func();
 
     return 0;
 }

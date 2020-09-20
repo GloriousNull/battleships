@@ -24,8 +24,8 @@ public:
     L get_length() const;
     auto get_begin() const;
     auto get_end() const;
-    void set_begin(const coordinate_2d<T>&);
-    void set_end(const coordinate_2d<T>&);
+    void set_begin(const coordinate_2d<T> &);
+    void set_end(const coordinate_2d<T> &);
 
     virtual ~segment() = default;
 };

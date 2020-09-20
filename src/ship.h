@@ -13,12 +13,14 @@ class ship
 {
 protected:
     std::size_t _size;
-    bool destroyed;
+    bool _destroyed;
 
-    [[nodiscard]] virtual std::function<void()> on_destroy_iml() const = 0;
+    [[nodiscard]] virtual std::function<void()> on_destroy_impl() const = 0;
 public:
-    ship() : _size{0}, destroyed{false} {}
+    ship() : _size{0}, _destroyed{false} {}
+    explicit ship(const std::size_t &);
     virtual ~ship() = default;
+
     void reduce_size();
     [[nodiscard]] bool is_destroyed() const;
     [[nodiscard]] std::size_t size() const;
