@@ -13,7 +13,14 @@ bool ext_player::reveal_self_impl(const coordinate_2d<std::size_t> & point)
 
 bool ext_player::kill_self_impl(const coordinate_2d<std::size_t> & point)
 {
-    return dynamic_cast<std_player*>(this)->attack(this, point);
+    bool is_revealed = this->get_field().reveal(point);
+    auto ship = is_revealed ? this->get_field().get_ship(point) : nullptr;
+
+    is_revealed = is_revealed && ship;
+    if (is_revealed)
+        ship->reduce_size();
+
+    return is_revealed;
 }
 
 bool ext_player::attack_impl(std_player_base * player_to_attack, const coordinate_2d<std::size_t> & coordinate_to_attack)
