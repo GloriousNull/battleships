@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(battleships)
+project(battlefields)
 
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
@@ -32,4 +32,4 @@ set(GCC_WARNINGS
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(battleships main.cpp battle_field.h players/std_player.h ships/std_ship_base.cpp ships/std_ship_base.h config.h utils/coordinate_2d.h utils/segment.h utils/non_inclined_segment.h battle_field.cpp players/std_player.cpp players/std_player_base.cpp players/std_player_base.h duty.h players/ext_player_base.cpp players/ext_player_base.h players/ext_player.cpp players/ext_player.h ships/typed_ship_base.cpp ships/typed_ship_base.h)
+add_executable(battlefields main.cpp battlefields/std_battlefield.h players/std_player.h ships/std_ship_base.cpp ships/std_ship_base.h config.h utils/coordinate_2d.h utils/segment.h utils/non_inclined_segment.h battlefields/std_battlefield.cpp players/std_player.cpp players/std_player_base.cpp players/std_player_base.h duty.h players/ext_player_base.cpp players/ext_player_base.h players/ext_player.cpp players/ext_player.h ships/typed_ship_base.cpp ships/typed_ship_base.h battlefields/std_battlefield_base.cpp battlefields/std_battlefield_base.h)

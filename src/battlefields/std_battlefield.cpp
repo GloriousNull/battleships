@@ -2,19 +2,14 @@
 // Created by GloriousSir on 9/21/2020.
 //
 
-#include "battle_field.h"
+#include "std_battlefield.h"
 
-battle_field::battle_field()
+bool std_battlefield::is_all_ships_placed_impl() const
 {
-    ships.reserve(AMOUNT_OF_SHIPS);
+    return this->ships.size() == AMOUNT_OF_SHIPS;
 }
 
-bool battle_field::is_all_ships_placed() const
-{
-    return ships.size() == AMOUNT_OF_SHIPS;
-}
-
-bool battle_field::is_enough_space_to_place(const std::size_t & ship_size, const non_inclined_segment<std::size_t, std::size_t> & segment) const
+bool std_battlefield::is_enough_space_to_place(const std::size_t & ship_size, const non_inclined_segment<std::size_t, std::size_t> & segment) const
 {
     if (ship_size - 1 != segment.get_length())
         return false;
@@ -32,7 +27,7 @@ bool battle_field::is_enough_space_to_place(const std::size_t & ship_size, const
     return true;
 }
 
-bool battle_field::place_ship(const std::shared_ptr<std_ship_base>& ship_ptr, const non_inclined_segment<std::size_t, std::size_t> & segment)
+bool std_battlefield::place_ship_impl(const std::shared_ptr<std_ship_base>& ship_ptr, const non_inclined_segment<std::size_t, std::size_t> & segment)
 {
     if (!segment.is_valid() || !is_enough_space_to_place(ship_ptr->size(), segment))
     {
@@ -52,7 +47,7 @@ bool battle_field::place_ship(const std::shared_ptr<std_ship_base>& ship_ptr, co
     return true;
 }
 
-bool battle_field::reveal(const coordinate_2d<std::size_t> & point)
+bool std_battlefield::reveal_impl(const coordinate_2d<std::size_t> & point)
 {
     if (point.get_x() < 0 || point.get_x() >= FIELD_SIZE || point.get_y() < 0 || point.get_y() >= FIELD_SIZE)
         return false;
@@ -67,7 +62,7 @@ bool battle_field::reveal(const coordinate_2d<std::size_t> & point)
     return false;
 }
 
-std::shared_ptr<std_ship_base> battle_field::get_ship(const coordinate_2d<std::size_t> & point)
+std::shared_ptr<std_ship_base> std_battlefield::get_ship_impl(const coordinate_2d<std::size_t> & point)
 {
     return field[point.get_x()][point.get_y()].containable_ship;
 }

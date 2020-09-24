@@ -4,7 +4,7 @@
 
 #include "std_player_base.h"
 
-bool std_player_base::attack(std_player_base * player, const coordinate_2d<std::size_t> & point)
+std::tuple<bool, bool> std_player_base::attack(const std::shared_ptr<std_player_base> & player, const coordinate_2d<std::size_t> & point)
 {
     return attack_impl(player, point);
 }
@@ -15,7 +15,7 @@ bool std_player_base::place_ship(const std::shared_ptr<std_ship_base> & ship_to_
     return place_ship_impl(ship_to_place, seg);
 }
 
-battle_field & std_player_base::get_field()
+std_battlefield_base & std_player_base::get_field()
 {
-    return field;
+    return get_field_impl();
 }

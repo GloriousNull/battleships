@@ -15,6 +15,8 @@ protected:
 private:
     [[nodiscard]] virtual bool reveal_self_impl(const coordinate_2d<std::size_t> &) = 0;
     [[nodiscard]] virtual bool kill_self_impl(const coordinate_2d<std::size_t> &) = 0;
+    [[nodiscard]] virtual duty get_duty_impl() const;
+    virtual void set_duty_impl(duty);
 public:
     [[nodiscard]] duty get_duty() const;
     void set_duty(duty);
