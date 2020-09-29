@@ -11,7 +11,6 @@ class std_ship_base
 {
 protected:
     std::size_t _size;
-
 public:
     std_ship_base() : _size{0} {}
     explicit std_ship_base(const std::size_t & size) : _size{size} {}

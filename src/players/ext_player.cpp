@@ -18,8 +18,8 @@ bool ext_player::reveal_self_impl(const coordinate_2d<std::size_t> & point)
 
 bool ext_player::kill_self_impl(const coordinate_2d<std::size_t> & point)
 {
-    bool is_revealed = this->get_field().reveal(point);
-    auto ship = is_revealed ? this->get_field().get_ship(point) : nullptr;
+    bool is_revealed = this->field->reveal(point);
+    auto ship = is_revealed ? this->field->get_ship(point) : nullptr;
 
     is_revealed = is_revealed && ship;
     if (is_revealed)
@@ -30,9 +30,9 @@ bool ext_player::kill_self_impl(const coordinate_2d<std::size_t> & point)
 
 std::tuple<bool, bool> ext_player::attack_impl(const std::shared_ptr<std_player_base> & player_to_attack, const coordinate_2d<std::size_t> & coordinate_to_attack)
 {
-    bool is_revealed = player_to_attack->get_field().reveal(coordinate_to_attack);
+    bool is_revealed = static_cast<ext_player*>(player_to_attack.get())->field->reveal(coordinate_to_attack);
 
-    auto ship = is_revealed ? player_to_attack->get_field().get_ship(coordinate_to_attack) : nullptr;
+    auto ship = is_revealed ? static_cast<ext_player*>(player_to_attack.get())->field->get_ship(coordinate_to_attack) : nullptr;
 
     if (ship)
     {

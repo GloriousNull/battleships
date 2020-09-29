@@ -14,8 +14,3 @@ bool std_player_base::place_ship(const std::shared_ptr<std_ship_base> & ship_to_
 {
     return place_ship_impl(ship_to_place, seg);
 }
-
-std_battlefield_base & std_player_base::get_field()
-{
-    return get_field_impl();
-}

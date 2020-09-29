@@ -11,9 +11,9 @@ std_player::std_player()
 
 std::tuple<bool, bool> std_player::attack_impl(const std::shared_ptr<std_player_base> & player_to_attack, const coordinate_2d<std::size_t> & coordinate_to_attack)
 {
-    bool is_revealed = player_to_attack->get_field().reveal(coordinate_to_attack);
+    bool is_revealed = static_cast<std_player*>(player_to_attack.get())->field->reveal(coordinate_to_attack);
 
-    auto ship = is_revealed ? player_to_attack->get_field().get_ship(coordinate_to_attack) : nullptr;
+    auto ship = is_revealed ? static_cast<std_player*>(player_to_attack.get())->field->get_ship(coordinate_to_attack) : nullptr;
 
     if (ship)
         ship->reduce_size();
