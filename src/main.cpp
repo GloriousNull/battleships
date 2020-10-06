@@ -11,7 +11,7 @@ int main()
     std::shared_ptr<std_player_base> p = std::make_shared<ext_player>();
     std::shared_ptr<std_player_base> p_2 = std::make_shared<ext_player>();
 
-    bool b1 = p_2->place_ship(std::make_shared<typed_ship_base>(typed_ship_base(1, duty::destroy_self_surprise)), {{2,3},{2,3}});
+    bool b1 = p_2->place_ship(typed_ship_base(1, duty::destroy_self_surprise), {{2,3},{2,3}});
     auto[b4,b5] = p->attack(p_2, {2,3});
     auto _duty = dynamic_cast<ext_player*>(p.get())->get_duty();
 

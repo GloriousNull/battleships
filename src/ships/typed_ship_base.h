@@ -7,6 +7,7 @@
 
 #include "std_ship_base.h"
 #include "../duty.h"
+#include "../players/std_player_base.h"
 
 class typed_ship_base : public std_ship_base
 {
@@ -16,6 +17,7 @@ public:
     typed_ship_base(const std::size_t & size, duty _duty) : std_ship_base(size), _duty{_duty} {}
     [[nodiscard]] duty get_duty() const;
     void set_duty(duty);
+//    std::tuple<duty, void(std_player_base*)> on_destroy(std_player_base *);
 };
 
 

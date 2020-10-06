@@ -8,9 +8,3 @@ std::tuple<bool, bool> std_player_base::attack(const std::shared_ptr<std_player_
 {
     return attack_impl(player, point);
 }
-
-bool std_player_base::place_ship(const std::shared_ptr<std_ship_base> & ship_to_place,
-                                 const non_inclined_segment<std::size_t, std::size_t> & seg)
-{
-    return place_ship_impl(ship_to_place, seg);
-}
