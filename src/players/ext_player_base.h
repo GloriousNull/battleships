@@ -6,20 +6,16 @@
 #define BATTLESHIPS_EXT_PLAYER_BASE_H
 
 #include "std_player_base.h"
-#include "../duty.h"
+#include "../ships/duty/duty.h"
 
 class ext_player_base : public std_player_base
 {
 protected:
-    duty _duty{duty::none};
+    std::unique_ptr<duty<const std::shared_ptr<std_player_base> &, const coordinate_2d<std::size_t> &>> _duty;
 private:
     [[nodiscard]] virtual bool reveal_self_impl(const coordinate_2d<std::size_t> &) = 0;
     [[nodiscard]] virtual bool kill_self_impl(const coordinate_2d<std::size_t> &) = 0;
-    [[nodiscard]] virtual duty get_duty_impl() const;
-    virtual void set_duty_impl(duty);
 public:
-    [[nodiscard]] duty get_duty() const;
-    void set_duty(duty);
     [[nodiscard]] bool reveal_self(const coordinate_2d<std::size_t> &);
     [[nodiscard]] bool kill_self(const coordinate_2d<std::size_t> &);
 };

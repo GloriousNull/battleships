@@ -15,6 +15,7 @@ class std_player_base
 {
 protected:
     std::unique_ptr<std_battlefield_base> field;
+    friend class std_player; friend class ext_player;
 private:
     [[nodiscard]] virtual std::tuple<bool, bool> attack_impl(const std::shared_ptr<std_player_base> &, const coordinate_2d<std::size_t> &) = 0;
     [[nodiscard]] virtual bool place_ship_impl(const std::shared_ptr<std_ship_base> &, const non_inclined_segment<std::size_t,std::size_t> &) = 0;
@@ -26,7 +27,6 @@ public:
     template<typename T>
     [[nodiscard]] bool place_ship(T &&, const non_inclined_segment<std::size_t,std::size_t> &);
 };
-
 
 template <typename T>
 bool std_player_base::place_ship(T && ship_to_place,

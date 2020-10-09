@@ -6,7 +6,7 @@
 
 bool std_battlefield::is_all_ships_placed_impl() const
 {
-    return this->ships.size() == AMOUNT_OF_SHIPS;
+    return this->is_all_placed;
 }
 
 bool std_battlefield::is_enough_space_to_place(const std::size_t & ship_size, const non_inclined_segment<std::size_t, std::size_t> & segment) const
@@ -27,7 +27,7 @@ bool std_battlefield::is_enough_space_to_place(const std::size_t & ship_size, co
     return true;
 }
 
-bool std_battlefield::place_ship_impl(const std::shared_ptr<std_ship_base>& ship_ptr, const non_inclined_segment<std::size_t, std::size_t> & segment)
+bool std_battlefield::place_ship_impl(const std::shared_ptr<std_ship_base> & ship_ptr, const non_inclined_segment<std::size_t, std::size_t> & segment)
 {
     if (!segment.is_valid() || !is_enough_space_to_place(ship_ptr->size(), segment))
     {
@@ -42,9 +42,25 @@ bool std_battlefield::place_ship_impl(const std::shared_ptr<std_ship_base>& ship
     for (; it <= it_end; ++it)
         field[begin][end].containable_ship = ship_ptr;
 
-    ships.push_back(ship_ptr);
+    this->is_all_placed = ++amount_of_ships == AMOUNT_OF_SHIPS;
 
     return true;
+}
+
+bool std_battlefield::remove_ship_segment_impl(const coordinate_2d<std::size_t> & point)
+{
+    if (field[point.get_x()][point.get_y()].containable_ship)
+    {
+        if (field[point.get_x()][point.get_y()].containable_ship->is_destroyed())
+            --amount_of_ships;
+
+        field[point.get_x()][point.get_y()].containable_ship = nullptr;
+
+        return true;
+    }
+
+    return false;
+
 }
 
 bool std_battlefield::reveal_impl(const coordinate_2d<std::size_t> & point)

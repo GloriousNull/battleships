@@ -4,14 +4,14 @@
 
 #include "std_ship_base.h"
 
-void std_ship_base::reduce_size()
+void std_ship_base::apply_damage()
 {
-    --_size;
+    apply_damage_impl();
 }
 
 bool std_ship_base::is_destroyed() const
 {
-    return !_size;
+    return is_destroyed_impl();
 }
 
 std::size_t std_ship_base::size() const

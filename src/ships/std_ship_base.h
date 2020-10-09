@@ -10,13 +10,14 @@
 class std_ship_base
 {
 protected:
-    std::size_t _size;
+    std::size_t _size{0};
+private:
+    virtual void apply_damage_impl() = 0;
+    [[nodiscard]] virtual bool is_destroyed_impl() const = 0;
 public:
-    std_ship_base() : _size{0} {}
-    explicit std_ship_base(const std::size_t & size) : _size{size} {}
     virtual ~std_ship_base() = default;
 
-    void reduce_size();
+    void apply_damage();
     [[nodiscard]] bool is_destroyed() const;
     [[nodiscard]] std::size_t size() const;
 };

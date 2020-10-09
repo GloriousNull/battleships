@@ -22,19 +22,21 @@ protected:
         std::shared_ptr<std_ship_base> containable_ship{nullptr};
     };
 
-    std::vector<std::shared_ptr<std_ship_base>> ships;
+    bool is_all_placed{false};
+    std::size_t amount_of_ships{0};
     std::array<std::array<point_info, FIELD_SIZE>, FIELD_SIZE> field{};
 private:
     [[nodiscard]] virtual bool is_all_ships_placed_impl() const = 0;
-    [[nodiscard]] virtual bool place_ship_impl(const std::shared_ptr<std_ship_base>&, const non_inclined_segment<std::size_t, std::size_t> &) = 0;
+    [[nodiscard]] virtual bool place_ship_impl(const std::shared_ptr<std_ship_base> &, const non_inclined_segment<std::size_t, std::size_t> &) = 0;
+    virtual bool remove_ship_segment_impl(const coordinate_2d<std::size_t> &) = 0;
     [[nodiscard]] virtual bool reveal_impl(const coordinate_2d<std::size_t> &) = 0;
     [[nodiscard]] virtual std::shared_ptr<std_ship_base> get_ship_impl(const coordinate_2d<std::size_t> &) = 0;
 public:
-    std_battlefield_base();
     virtual ~std_battlefield_base() = default;
 
     [[nodiscard]] bool is_all_ships_placed() const;
-    [[nodiscard]] bool place_ship(const std::shared_ptr<std_ship_base>&, const non_inclined_segment<std::size_t, std::size_t> &);
+    [[nodiscard]] bool place_ship(const std::shared_ptr<std_ship_base> &, const non_inclined_segment<std::size_t, std::size_t> &);
+    bool remove_ship_segment(const coordinate_2d<std::size_t> &);
     [[nodiscard]] bool reveal(const coordinate_2d<std::size_t> &);
     [[nodiscard]] std::shared_ptr<std_ship_base> get_ship(const coordinate_2d<std::size_t> &);
 };
