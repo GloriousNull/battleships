@@ -5,6 +5,11 @@
 #include "ext_ship_mine.h"
 #include "../players/ext_player_base.h"
 
+ext_ship_mine::ext_ship_mine(const std::size_t & size)
+{
+    this->_size = size;
+}
+
 void ext_ship_mine::apply_damage_impl()
 {
     --this->_size;
@@ -24,7 +29,7 @@ duty<const std::shared_ptr<std_player_base> &, const coordinate_2d<std::size_t> 
                     auto checked_player = dynamic_cast<ext_player_base*>(player.get());
 
                     if (checked_player)
-                        return checked_player->reveal_self(point);
+                        return checked_player->reveal_self_ship(point);
 
                     return false;
                 }

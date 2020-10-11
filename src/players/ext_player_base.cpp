@@ -4,9 +4,19 @@
 
 #include "ext_player_base.h"
 
-bool ext_player_base::reveal_self(const coordinate_2d<std::size_t> & point)
+bool ext_player_base::has_duty() const
 {
-    return reveal_self_impl(point);
+    return has_duty_impl();
+}
+
+void ext_player_base::fulfill_duty(const coordinate_2d<std::size_t> & point)
+{
+    fulfill_duty_impl(point);
+}
+
+bool ext_player_base::reveal_self_ship(const coordinate_2d<std::size_t> & point)
+{
+    return reveal_self_ship_impl(point);
 }
 
 bool ext_player_base::kill_self(const coordinate_2d<std::size_t> & point)

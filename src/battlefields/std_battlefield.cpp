@@ -30,9 +30,7 @@ bool std_battlefield::is_enough_space_to_place(const std::size_t & ship_size, co
 bool std_battlefield::place_ship_impl(const std::shared_ptr<std_ship_base> & ship_ptr, const non_inclined_segment<std::size_t, std::size_t> & segment)
 {
     if (!segment.is_valid() || !is_enough_space_to_place(ship_ptr->size(), segment))
-    {
         return false;
-    }
 
     std::size_t begin = segment.get_begin().get_x();
     std::size_t end = segment.get_begin().get_y();

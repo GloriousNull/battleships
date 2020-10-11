@@ -17,7 +17,18 @@ public:
     [[nodiscard]] constexpr T get_y() const;
     constexpr void set_x(const T &);
     constexpr void set_y(const T &);
+
+    template<typename V> requires std::integral<V> || std::floating_point<V>
+    friend std::istream & operator>>(std::istream & in, coordinate_2d<V> & point);
 };
+
+template<typename T> requires std::integral<T> || std::floating_point<T>
+std::istream & operator>>(std::istream & in, coordinate_2d<T> & point)
+{
+    in >> point.x >> point.y;
+
+    return in;
+}
 
 template<typename T> requires std::integral<T> || std::floating_point<T>
 constexpr T coordinate_2d<T>::get_x() const

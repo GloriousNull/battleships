@@ -9,6 +9,11 @@ std_player::std_player()
     this->field = std::make_unique<std_battlefield>();
 }
 
+bool std_player::is_ready_impl() const
+{
+    return this->field->is_all_ships_placed();
+}
+
 std::tuple<bool, bool> std_player::attack_impl(const std::shared_ptr<std_player_base> & player_to_attack, const coordinate_2d<std::size_t> & coordinate_to_attack)
 {
     bool is_revealed = player_to_attack->field->reveal(coordinate_to_attack);
@@ -27,5 +32,5 @@ std::tuple<bool, bool> std_player::attack_impl(const std::shared_ptr<std_player_
 
 bool std_player::place_ship_impl(const std::shared_ptr<std_ship_base> & ship_to_place, const non_inclined_segment<std::size_t, std::size_t> & _segment)
 {
-    return field->place_ship(ship_to_place, _segment);
+    return this->field->place_ship(ship_to_place, _segment);
 }
