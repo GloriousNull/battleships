@@ -12,3 +12,25 @@ std_game::std_game()
 
     this->running = false;
 }
+
+bool std_game::is_running_impl() const
+{
+    return this->running;
+}
+
+bool std_game::preparation_phase()
+{
+
+}
+
+bool std_game::main_loop()
+{
+
+}
+
+void std_game::run_impl()
+{
+    preparation_phase();
+
+    main_loop();
+}

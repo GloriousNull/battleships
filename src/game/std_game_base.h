@@ -14,8 +14,10 @@ protected:
     std::unique_ptr<std_player_base> player_0, player_1;
     bool running;
 private:
-
+    [[nodiscard]] virtual bool is_running_impl() const = 0;
+    virtual void run_impl() = 0;
 public:
+    [[nodiscard]] bool is_running() const;
     void run();
 };
 

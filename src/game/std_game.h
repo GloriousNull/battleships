@@ -10,7 +10,11 @@
 class std_game final : public std_game_base
 {
 private:
+    [[nodiscard]] bool is_running_impl() const override;
+    void run_impl() override;
 
+    [[nodiscard]] bool preparation_phase();
+    [[nodiscard]] bool main_loop();
 public:
     std_game();
 };
