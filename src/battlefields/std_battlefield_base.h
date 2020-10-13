@@ -24,7 +24,7 @@ protected:
 
     bool is_all_placed{false};
     std::size_t amount_of_ships{0};
-    std::array<std::array<point_info, FIELD_SIZE>, FIELD_SIZE> field{};
+    std::array<std::array<point_info, CNT::FIELD_SIZE>, CNT::FIELD_SIZE> field{};
 private:
     [[nodiscard]] virtual bool is_all_ships_placed_impl() const = 0;
     [[nodiscard]] virtual bool place_ship_impl(const std::shared_ptr<std_ship_base> &, const non_inclined_segment<std::size_t, std::size_t> &) = 0;

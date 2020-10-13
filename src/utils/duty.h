@@ -5,19 +5,26 @@
 #ifndef BATTLEFIELDS_DUTY_H
 #define BATTLEFIELDS_DUTY_H
 
-#include <functional>
-
 template <typename ...ARGS>
 class duty
 {
 private:
-    bool fulfilled{false};
-    std::function<bool(ARGS...)> work{nullptr};
+    bool fulfilled;
+    bool(*work)(ARGS...);
 public:
-    explicit duty(std::function<bool(ARGS...)> && work) : work{work} {}
+    duty() : fulfilled{false}, work{nullptr} {}
+    explicit duty(auto work) : work{work} {}
+
+    void set_work(auto duty);
     [[nodiscard]] bool is_fulfilled() const;
-    void try_to_fulfill(ARGS &&...);
+    void try_to_fulfill(ARGS...);
 };
+
+template<typename ...ARGS>
+void duty<ARGS...>::set_work(auto _work)
+{
+    work = _work;
+}
 
 template<typename ...ARGS>
 [[nodiscard]] bool duty<ARGS...>::is_fulfilled() const
@@ -26,9 +33,9 @@ template<typename ...ARGS>
 }
 
 template<typename ...ARGS>
-void duty<ARGS...>::try_to_fulfill(ARGS &&... args)
+void duty<ARGS...>::try_to_fulfill(ARGS... args)
 {
-    fulfilled = work(std::forward<ARGS>(args)...);
+    fulfilled = work(args...);
 }
 
 #endif //BATTLEFIELDS_DUTY_H

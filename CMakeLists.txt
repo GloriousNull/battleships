@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(battlefields)
+project(src/battlefields)
 
 set(CMAKE_CXX_FLAGS_RELEASE "-O3")
 
@@ -32,4 +32,10 @@ set(GCC_WARNINGS
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(battlefields main.cpp battlefields/std_battlefield.h players/std_player.h ships/std_ship_base.cpp ships/std_ship_base.h config.h utils/coordinate_2d.h utils/segment.h utils/non_inclined_segment.h battlefields/std_battlefield.cpp players/std_player.cpp players/std_player_base.cpp players/std_player_base.h players/ext_player_base.cpp players/ext_player_base.h players/ext_player.cpp players/ext_player.h battlefields/std_battlefield_base.cpp battlefields/std_battlefield_base.h ships/std_ship.cpp ships/std_ship.h ships/ext_ship_base.cpp ships/ext_ship_base.h game/duty/duty.h ships/ext_ship_mine.cpp ships/ext_ship_mine.h ships/ext_ship_minesweeper.cpp ships/ext_ship_minesweeper.h game/std_game_base.cpp game/std_game_base.h game/std_game.cpp game/std_game.h game/ext_game.cpp game/ext_game.h)
+add_executable(battlefields main.cpp
+        src/battlefields/std_battlefield.h
+        src/players/std_player.h
+        src/ships/std_ship_base.cpp
+        src/ships/std_ship_base.h src/config.h src/utils/coordinate_2d.h src/utils/segment.h src/utils/non_inclined_segment.h src/battlefields/std_battlefield.cpp src/players/std_player.cpp src/players/std_player_base.cpp src/players/std_player_base.h src/players/ext_player_base.cpp src/players/ext_player_base.h src/players/ext_player.cpp src/players/ext_player.h src/battlefields/std_battlefield_base.cpp src/battlefields/std_battlefield_base.h src/ships/std_ship.cpp src/ships/std_ship.h src/ships/ext_ship_base.cpp src/ships/ext_ship_base.h src/utils/duty.h src/ships/ext_ship_mine.cpp src/ships/ext_ship_mine.h src/ships/ext_ship_minesweeper.cpp src/ships/ext_ship_minesweeper.h src/game/std_game_base.cpp src/game/std_game_base.h src/game/std_game.cpp src/game/std_game.h src/game/ext_game.cpp src/game/ext_game.h)
+
+add_subdirectory(boost_tests)

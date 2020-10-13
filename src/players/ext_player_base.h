@@ -6,7 +6,7 @@
 #define BATTLESHIPS_EXT_PLAYER_BASE_H
 
 #include "std_player_base.h"
-#include "../game/duty/duty.h"
+#include "../utils/duty.h"
 
 class ext_player_base : public std_player_base
 {

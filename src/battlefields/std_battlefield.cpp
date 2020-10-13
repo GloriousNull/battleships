@@ -40,7 +40,7 @@ bool std_battlefield::place_ship_impl(const std::shared_ptr<std_ship_base> & shi
     for (; it <= it_end; ++it)
         field[begin][end].containable_ship = ship_ptr;
 
-    this->is_all_placed = ++amount_of_ships == AMOUNT_OF_SHIPS;
+    this->is_all_placed = ++amount_of_ships == CNT::AMOUNT_OF_SHIPS;
 
     return true;
 }
@@ -63,7 +63,7 @@ bool std_battlefield::remove_ship_segment_impl(const coordinate_2d<std::size_t> 
 
 bool std_battlefield::reveal_impl(const coordinate_2d<std::size_t> & point)
 {
-    if (point.get_x() < 0 || point.get_x() >= FIELD_SIZE || point.get_y() < 0 || point.get_y() >= FIELD_SIZE)
+    if (point.get_x() < 0 || point.get_x() >= CNT::FIELD_SIZE || point.get_y() < 0 || point.get_y() >= CNT::FIELD_SIZE)
         return false;
 
     if (field[point.get_x()][point.get_y()].is_hidden)

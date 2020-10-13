@@ -8,7 +8,7 @@
 #include <memory>
 #include "std_ship_base.h"
 
-#include "../game/duty/duty.h"
+#include "../utils/duty.h"
 #include "../players/std_player_base.h"
 
 class ext_ship_base : public std_ship_base
