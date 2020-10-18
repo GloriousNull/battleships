@@ -20,7 +20,10 @@ bool std_game::is_running_impl() const
 
 bool std_game::preparation_phase()
 {
+    while (!player_0->is_ready() || !player_1->is_ready())
+    {
 
+    }
 }
 
 bool std_game::main_loop()

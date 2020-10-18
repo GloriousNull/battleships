@@ -11,6 +11,9 @@
 class std_game_base
 {
 protected:
+    class input_handler;
+    class graphics_handler;
+
     std::unique_ptr<std_player_base> player_0, player_1;
     bool running;
 private:
