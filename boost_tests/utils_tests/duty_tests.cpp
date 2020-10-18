@@ -16,7 +16,7 @@ BOOST_AUTO_TEST_SUITE(duty_test)
 
         duty_to_test.try_to_fulfill();
 
-        BOOST_CHECK(duty_to_test.is_fulfilled() == true);
+        BOOST_CHECK(duty_to_test.is_fulfilled());
     }
 
     BOOST_AUTO_TEST_CASE(not_fullfield)
@@ -25,7 +25,7 @@ BOOST_AUTO_TEST_SUITE(duty_test)
 
         duty_to_test.try_to_fulfill();
 
-        BOOST_CHECK(duty_to_test.is_fulfilled() == false);
+        BOOST_CHECK(!duty_to_test.is_fulfilled());
     }
 
     BOOST_AUTO_TEST_CASE(setter)
@@ -34,11 +34,11 @@ BOOST_AUTO_TEST_SUITE(duty_test)
 
         duty_to_test.set_work(+[](const std::size_t & number){ return number > 2;});
 
-        BOOST_CHECK(duty_to_test.is_fulfilled() == false);
+        BOOST_CHECK(!duty_to_test.is_fulfilled());
 
         duty_to_test.try_to_fulfill(3);
 
-        BOOST_CHECK(duty_to_test.is_fulfilled() == true);
+        BOOST_CHECK(duty_to_test.is_fulfilled());
     }
 
 BOOST_AUTO_TEST_SUITE_END()

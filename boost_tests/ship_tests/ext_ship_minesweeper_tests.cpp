@@ -15,9 +15,9 @@ BOOST_AUTO_TEST_SUITE(ext_ship_minesweeper_test)
 
     BOOST_AUTO_TEST_CASE(on_destroy)
     {
-        std::shared_ptr<std_ship_base> ship_to_test = std::make_shared<ext_ship_minesweeper>(0);
+        std::unique_ptr<std_ship_base> ship_to_test{std::make_unique<ext_ship_minesweeper>(0)};
 
-        std::shared_ptr<std_player_base> player_42 = std::make_shared<std_player>();
+        std::shared_ptr<std_player_base> player_42{std::make_shared<std_player>()};
         bool placed_0 = player_42->place_ship(ext_ship_minesweeper(1), {{1,1},{1,1}});
 
         std::shared_ptr<std_player_base> player_451 = std::make_shared<ext_player>();
@@ -30,32 +30,32 @@ BOOST_AUTO_TEST_SUITE(ext_ship_minesweeper_test)
 
         duty.try_to_fulfill(player_42, {1,1});
 
-        BOOST_CHECK(duty.is_fulfilled() == false);
+        BOOST_CHECK(!duty.is_fulfilled());
 
         duty.try_to_fulfill(player_451, {1,1});
 
-        BOOST_CHECK(duty.is_fulfilled() == true);
+        BOOST_CHECK(duty.is_fulfilled());
     }
 
     BOOST_AUTO_TEST_CASE(destroyed)
     {
-        std::shared_ptr<std_ship_base> ship_to_test = std::make_shared<ext_ship_minesweeper>(0);
+        std::unique_ptr<std_ship_base> ship_to_test{std::make_unique<ext_ship_minesweeper>(0)};
 
-        BOOST_CHECK(ship_to_test->is_destroyed() == true);
+        BOOST_CHECK(ship_to_test->is_destroyed());
     }
 
     BOOST_AUTO_TEST_CASE(not_destroyed)
     {
-        std::shared_ptr<std_ship_base> ship_to_test = std::make_shared<ext_ship_minesweeper>(1);
+        std::unique_ptr<std_ship_base> ship_to_test{std::make_unique<ext_ship_minesweeper>(1)};
 
-        BOOST_CHECK(ship_to_test->is_destroyed() == false);
+        BOOST_CHECK(!ship_to_test->is_destroyed());
     }
 
     BOOST_AUTO_TEST_CASE(size)
     {
         constexpr std::size_t size{5};
 
-        std::shared_ptr<std_ship_base> ship_to_test = std::make_shared<ext_ship_minesweeper>(size);
+        std::unique_ptr<std_ship_base> ship_to_test{std::make_unique<ext_ship_minesweeper>(size)};
 
         BOOST_CHECK(ship_to_test->size() == size);
     }
@@ -64,7 +64,7 @@ BOOST_AUTO_TEST_SUITE(ext_ship_minesweeper_test)
     {
         constexpr std::size_t size{1};
 
-        std::shared_ptr<std_ship_base> ship_to_test = std::make_shared<ext_ship_minesweeper>(size);
+        std::unique_ptr<std_ship_base> ship_to_test{std::make_unique<ext_ship_minesweeper>(size)};
         ship_to_test->apply_damage();
 
         BOOST_CHECK(ship_to_test->size() == size - 1);

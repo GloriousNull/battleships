@@ -14,38 +14,39 @@ BOOST_AUTO_TEST_SUITE(std_battlefield_test)
 
     BOOST_AUTO_TEST_CASE(place_ship)
     {
-        auto battlefield_to_test = std::make_unique<std_battlefield>();
+        auto battlefield_to_test{std::make_unique<std_battlefield>()};
 
-        bool placed_0 = battlefield_to_test->place_ship(std::make_shared<std_ship>(1), {{1,1}, {1,1}});
-        BOOST_CHECK(placed_0 == true);
+        bool placed_0{battlefield_to_test->place_ship(std::make_shared<std_ship>(1), {{1,1}, {1,1}})};
+        BOOST_CHECK(placed_0);
 
-        bool not_placed_0 = battlefield_to_test->place_ship(std::make_shared<std_ship>(1), {{1,1}, {1,1}});
-        BOOST_CHECK(not_placed_0 == false);
+        bool not_placed_0{battlefield_to_test->place_ship(std::make_shared<std_ship>(1), {{1,1}, {1,1}})};
+        BOOST_CHECK(!not_placed_0);
 
-        bool placed_1 = battlefield_to_test->place_ship(std::make_shared<std_ship>(3), {{2,2}, {2,4}});
-        BOOST_CHECK(placed_1 == true);
+        bool placed_1{battlefield_to_test->place_ship(std::make_shared<std_ship>(3), {{2,2}, {2,4}})};
+        BOOST_CHECK(placed_1);
 
-        bool not_placed_1 = battlefield_to_test->place_ship(std::make_shared<std_ship>(1), {{2,3}, {2,3}});
-        BOOST_CHECK(not_placed_1 == false);
+        bool not_placed_1{battlefield_to_test->place_ship(std::make_shared<std_ship>(1), {{2,3}, {2,3}})};
+        BOOST_CHECK(!not_placed_1);
 
-        bool not_placed_2 = battlefield_to_test->place_ship(std::make_shared<std_ship>(5), {{4,2}, {6,3}});
-        BOOST_CHECK(not_placed_2 == false);
+        bool not_placed_2{battlefield_to_test->place_ship(std::make_shared<std_ship>(5), {{4,2}, {6,3}})};
+        BOOST_CHECK(!not_placed_2);
     }
 
     BOOST_AUTO_TEST_CASE(get_ship)
     {
-        auto battlefield_to_test = std::make_unique<std_battlefield>();
+        auto battlefield_to_test{std::make_unique<std_battlefield>()};
 
-        auto ship_0 = std::make_shared<std_ship>(1);
+        auto ship_0{std::make_shared<std_ship>(1)};
 
-        bool placed_0 = battlefield_to_test->place_ship(ship_0, {{2,2}, {2,2}});
+        bool placed_0{battlefield_to_test->place_ship(ship_0, {{2,2}, {2,2}})};
         BOOST_CHECK(placed_0);
         BOOST_CHECK(ship_0 == battlefield_to_test->get_ship({2,2}));
 
-        auto ship_1 = std::make_shared<std_ship>(4);
+        auto ship_1{std::make_shared<std_ship>(4)};
 
-        bool placed_1 = battlefield_to_test->place_ship(ship_1, {{1,1}, {1,4}});
+        bool placed_1{battlefield_to_test->place_ship(ship_1, {{1,1}, {1,4}})};
         BOOST_CHECK(placed_1);
+
         BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,1}));
         BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,2}));
         BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,3}));
@@ -54,30 +55,30 @@ BOOST_AUTO_TEST_SUITE(std_battlefield_test)
 
     BOOST_AUTO_TEST_CASE(remove_ship_segment)
     {
-        auto battlefield_to_test = std::make_unique<std_battlefield>();
+        auto battlefield_to_test{std::make_unique<std_battlefield>()};
 
-        auto ship_0 = std::make_shared<std_ship>(1);
+        auto ship_0{std::make_shared<std_ship>(1)};
 
-        bool placed_0 = battlefield_to_test->place_ship(ship_0, {{2,2}, {2,2}});
+        bool placed_0{battlefield_to_test->place_ship(ship_0, {{2,2}, {2,2}})};
         BOOST_CHECK(placed_0);
 
         battlefield_to_test->remove_ship_segment({2,2});
 
-        BOOST_CHECK(battlefield_to_test->get_ship({2,2}) == nullptr);
+        BOOST_CHECK(!battlefield_to_test->get_ship({2,2}));
 
-        auto ship_1 = std::make_shared<std_ship>(4);
+        auto ship_1{std::make_shared<std_ship>(4)};
 
-        bool placed_1 = battlefield_to_test->place_ship(ship_1, {{1,1}, {1,4}});
+        bool placed_1{battlefield_to_test->place_ship(ship_1, {{1,1}, {1,4}})};
         BOOST_CHECK(placed_1);
 
         battlefield_to_test->remove_ship_segment({1,1});
         battlefield_to_test->remove_ship_segment({1,3});
         battlefield_to_test->remove_ship_segment({1,4});
 
-        BOOST_CHECK(nullptr == battlefield_to_test->get_ship({1,1}));
+        BOOST_CHECK(!battlefield_to_test->get_ship({1,1}));
         BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,2}));
-        BOOST_CHECK(nullptr == battlefield_to_test->get_ship({1,3}));
-        BOOST_CHECK(nullptr == battlefield_to_test->get_ship({1,4}));
+        BOOST_CHECK(!battlefield_to_test->get_ship({1,3}));
+        BOOST_CHECK(!battlefield_to_test->get_ship({1,4}));
     }
 
 BOOST_AUTO_TEST_SUITE_END()

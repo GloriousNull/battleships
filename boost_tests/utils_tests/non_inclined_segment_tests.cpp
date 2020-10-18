@@ -2,8 +2,6 @@
 // Created by GloriousSir on 10/13/2020.
 //
 
-#define BOOST_TEST_DYN_LINK
-
 #include <boost/test/unit_test.hpp>
 
 #include "../../src/utils/non_inclined_segment.h"
@@ -16,7 +14,7 @@ BOOST_AUTO_TEST_SUITE(non_inclined_segment_test)
 
         non_inclined_segment<std::int64_t, std::int64_t> seg_to_test({x,y}, {x,y});
 
-        BOOST_CHECK(seg_to_test.is_valid() == true);
+        BOOST_CHECK(seg_to_test.is_valid());
     }
 
     BOOST_AUTO_TEST_CASE(not_valid)
@@ -25,7 +23,7 @@ BOOST_AUTO_TEST_SUITE(non_inclined_segment_test)
 
         non_inclined_segment<std::int64_t, std::int64_t> seg_to_test({x_0,y_0}, {x_1,y_1});
 
-        BOOST_CHECK(seg_to_test.is_valid() == false);
+        BOOST_CHECK(!seg_to_test.is_valid());
     }
 
     BOOST_AUTO_TEST_CASE(horizontal)
@@ -34,7 +32,7 @@ BOOST_AUTO_TEST_SUITE(non_inclined_segment_test)
 
         non_inclined_segment<std::int64_t, std::int64_t> seg_to_test({x,y}, {x+1,y});
 
-        BOOST_CHECK(seg_to_test.is_horizontal() == true);
+        BOOST_CHECK(seg_to_test.is_horizontal());
     }
 
     BOOST_AUTO_TEST_CASE(not_horizontal)
@@ -43,7 +41,7 @@ BOOST_AUTO_TEST_SUITE(non_inclined_segment_test)
 
         non_inclined_segment<std::int64_t, std::int64_t> seg_to_test({x,y}, {x,y+1});
 
-        BOOST_CHECK(seg_to_test.is_horizontal() == false);
+        BOOST_CHECK(!seg_to_test.is_horizontal());
     }
 
 BOOST_AUTO_TEST_SUITE_END()
