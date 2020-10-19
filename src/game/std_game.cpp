@@ -2,6 +2,9 @@
 // Created by GloriousSir on 10/10/2020.
 //
 
+#include <iostream>
+#include <future>
+
 #include "std_game.h"
 #include "../players/std_player.h"
 
@@ -19,22 +22,29 @@ bool std_game::is_running_impl() const
     return this->running;
 }
 
-bool std_game::preparation_phase()
+void std_game::prepare_player(std::unique_ptr<std_player_base> & player_to_prepare)
 {
-    while (!player_0->is_ready() || !player_1->is_ready())
+    while (!player_to_prepare->is_ready())
     {
+        bool placed{player_to_prepare->place_ship(input_handler->get_ship(), {input_handler->get_coordinate(), input_handler->get_coordinate()})};
 
+        // temporary solution
+        if (placed)
+            std::cout << "placed\n";
+        else
+            std::cout << "not placed\n";
     }
 }
 
 bool std_game::main_loop()
 {
-
+    //TODO
 }
 
 void std_game::run_impl()
 {
-    preparation_phase();
+    prepare_player(player_0);
+    prepare_player(player_1);
 
     main_loop();
 }
