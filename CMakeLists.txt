@@ -40,6 +40,6 @@ add_executable(
         src/players/ext_player.h src/battlefields/std_battlefield_base.cpp src/battlefields/std_battlefield_base.h src/ships/std_ship.cpp
         src/ships/std_ship.h src/ships/ext_ship_base.cpp src/ships/ext_ship_base.h src/utils/duty.h
         src/ships/ext_ship_mine.cpp src/ships/ext_ship_mine.h src/ships/ext_ship_minesweeper.cpp src/ships/ext_ship_minesweeper.h
-        src/game/std_game_base.cpp src/game/std_game_base.h src/game/std_game.cpp src/game/std_game.h src/game/ext_game.cpp src/game/ext_game.h)
+        src/game/std_game_base.cpp src/game/std_game_base.h src/game/std_game.cpp src/game/std_game.h src/game/ext_game.cpp src/game/ext_game.h src/input/input_handler_base.cpp src/input/input_handler_base.h src/input/console_input_handler.cpp src/input/console_input_handler.h)
 
 add_subdirectory(boost_tests)

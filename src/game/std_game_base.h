@@ -6,14 +6,14 @@
 #define BATTLEFIELDS_STD_GAME_BASE_H
 
 #include <memory>
+
 #include "../players/std_player_base.h"
+#include "../input/input_handler_base.h"
 
 class std_game_base
 {
 protected:
-    class input_handler;
-    class graphics_handler;
-
+    std::unique_ptr<input_handler_base> input_handler;
     std::unique_ptr<std_player_base> player_0, player_1;
     bool running;
 private:

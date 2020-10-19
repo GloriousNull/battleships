@@ -5,8 +5,9 @@
 #include "std_game.h"
 #include "../players/std_player.h"
 
-std_game::std_game()
+std_game::std_game(std::unique_ptr<input_handler_base> input)
 {
+    this->input_handler = std::move(input);
     this->player_0 = std::make_unique<std_player>();
     this->player_1 = std::make_unique<std_player>();
 

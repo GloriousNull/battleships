@@ -16,7 +16,7 @@ private:
     [[nodiscard]] bool preparation_phase();
     [[nodiscard]] bool main_loop();
 public:
-    std_game();
+    std_game(std::unique_ptr<input_handler_base>);
 };
 
 
