@@ -11,7 +11,7 @@
 class ext_player_base : public std_player_base
 {
 protected:
-    std::unique_ptr<duty<const std::shared_ptr<std_player_base> &, const coordinate_2d<std::size_t> &>> _duty;
+    std::unique_ptr<duty<ext_player_base &, const coordinate_2d<std::size_t> &>> _duty;
 private:
     [[nodiscard]] virtual bool has_duty_impl() const = 0;
     virtual void fulfill_duty_impl(const coordinate_2d<std::size_t> &) = 0;

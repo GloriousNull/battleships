@@ -13,3 +13,8 @@ void std_game_base::run()
 {
     run_impl();
 }
+
+const std::unique_ptr<std_player_base> & std_game_base::get_active_player() const
+{
+    return get_active_player_impl();
+}

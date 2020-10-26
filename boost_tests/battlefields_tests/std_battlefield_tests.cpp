@@ -44,13 +44,13 @@ BOOST_AUTO_TEST_SUITE(std_battlefield_test)
 
         auto ship_1{std::make_shared<std_ship>(4)};
 
-        bool placed_1{battlefield_to_test->place_ship(ship_1, {{1,1}, {1,4}})};
+        bool placed_1{battlefield_to_test->place_ship(ship_1, {{0,1}, {0,4}})};
         BOOST_CHECK(placed_1);
 
-        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,1}));
-        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,2}));
-        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,3}));
-        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,4}));
+        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({0,1}));
+        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({0,2}));
+        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({0,3}));
+        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({0,4}));
     }
 
     BOOST_AUTO_TEST_CASE(remove_ship_segment)

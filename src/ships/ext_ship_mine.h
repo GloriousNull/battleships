@@ -12,7 +12,7 @@ class ext_ship_mine final : public ext_ship_base
 private:
     void apply_damage_impl() override;
     [[nodiscard]] bool is_destroyed_impl() const override;
-    [[nodiscard]] duty<const std::shared_ptr<std_player_base> &, const coordinate_2d<std::size_t> &> on_destroy_impl() const override;
+    [[nodiscard]] duty<ext_player_base &, const coordinate_2d<std::size_t> &> on_destroy_impl() const override;
 public:
     explicit ext_ship_mine(const std::size_t &);
 };

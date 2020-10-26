@@ -11,7 +11,7 @@
 
 class console_input_handler final : public input_handler_base
 {
-    std::shared_ptr<std_ship_base> get_ship_impl() override;
+    std::shared_ptr<std_ship_base> get_ship_impl(const std::size_t &) override;
     coordinate_2d<std::size_t> get_coordinate_impl() override;
 };
 

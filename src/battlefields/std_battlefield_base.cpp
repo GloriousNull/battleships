@@ -4,9 +4,9 @@
 
 #include "std_battlefield_base.h"
 
-bool std_battlefield_base::is_all_ships_placed() const
+std::size_t std_battlefield_base::current_ships() const
 {
-    return is_all_ships_placed_impl();
+    return current_ships_impl();
 }
 
 bool std_battlefield_base::place_ship(const std::shared_ptr<std_ship_base> & ship_to_place,
@@ -28,4 +28,9 @@ bool std_battlefield_base::reveal(const coordinate_2d<std::size_t> & point)
 std::shared_ptr<std_ship_base> std_battlefield_base::get_ship(const coordinate_2d<std::size_t> & point)
 {
     return get_ship_impl(point);
+}
+
+std::span<const std::array<std_battlefield_base::point_info, FIELD_SIZE>, FIELD_SIZE> std_battlefield_base::get_field_view() const
+{
+    return std::span{field};
 }

@@ -17,20 +17,12 @@ BOOST_AUTO_TEST_SUITE(ext_ship_minesweeper_test)
     {
         std::unique_ptr<std_ship_base> ship_to_test{std::make_unique<ext_ship_minesweeper>(0)};
 
-        std::shared_ptr<std_player_base> player_42{std::make_shared<std_player>()};
-        bool placed_0 = player_42->place_ship(ext_ship_minesweeper(1), {{1,1},{1,1}});
-
-        std::shared_ptr<std_player_base> player_451 = std::make_shared<ext_player>();
-        bool placed_1 = player_451->place_ship(ext_ship_minesweeper(1), {{1,1},{1,1}});
+        std::shared_ptr<ext_player_base> player_451 = std::make_shared<ext_player>();
+        bool placed_1 = player_451->place_ship(std::make_shared<ext_ship_minesweeper>(1), {{1,1},{1,1}});
+        BOOST_CHECK(placed_1);
 
         auto checked_ship = dynamic_cast<ext_ship_base*>(ship_to_test.get());
         auto duty = checked_ship->on_destroy();
-
-        BOOST_CHECK(placed_0 && placed_1);
-
-        duty.try_to_fulfill(player_42, {1,1});
-
-        BOOST_CHECK(!duty.is_fulfilled());
 
         duty.try_to_fulfill(player_451, {1,1});
 

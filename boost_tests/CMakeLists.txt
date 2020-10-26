@@ -6,7 +6,7 @@ include_directories (${Boost_INCLUDE_DIRS})
 
 add_executable (boost_tests_run
         ship_tests/std_ship_tests.cpp ship_tests/ext_ship_mine_tests.cpp
-        utils_tests/coordinate_2d_test.cpp utils_tests/segment_tests.cpp utils_tests/non_inclined_segment_tests.cpp utils_tests/duty_tests.cpp
+        utils_tests/coordinate_2d_tests.cpp utils_tests/segment_tests.cpp utils_tests/non_inclined_segment_tests.cpp utils_tests/duty_tests.cpp
         battlefields_tests/std_battlefield_tests.cpp
         player_tests/std_player_tests.cpp  player_tests/ext_player_tests.cpp
 
@@ -17,5 +17,7 @@ add_executable (boost_tests_run
         ../src/battlefields/std_battlefield_base.h ../src/ships/std_ship.cpp ../src/ships/std_ship.h ../src/ships/ext_ship_base.cpp
         ../src/ships/ext_ship_base.h ../src/utils/duty.h ../src/ships/ext_ship_mine.cpp ../src/ships/ext_ship_mine.h ../src/ships/ext_ship_minesweeper.cpp
         ../src/ships/ext_ship_minesweeper.h ../src/game/std_game_base.cpp ../src/game/std_game_base.h ../src/game/std_game.cpp ../src/game/std_game.h
-        ../src/game/ext_game.cpp ../src/game/ext_game.h utils_tests/coordinate_2d_test.cpp utils_tests/segment_tests.cpp utils_tests/non_inclined_segment_tests.cpp utils_tests/duty_tests.cpp ship_tests/ext_ship_mine_tests.cpp ship_tests/ext_ship_minesweeper_tests.cpp battlefields_tests/std_battlefield_tests.cpp player_tests/std_player_tests.cpp player_tests/ext_player_tests.cpp)
+        ../src/game/ext_game.cpp ../src/game/ext_game.h ../src/input/input_handler_base.h ../src/input/input_handler_base.cpp
+        ../src/input/console_input_handler.h ../src/input/console_input_handler.cpp ../src/ui/user_interface_base.h ../src/ui/user_interface_base.cpp
+        ../src/ui/console_user_interface.h ../src/ui/console_user_interface.cpp)
 target_link_libraries (boost_tests_run ${Boost_LIBRARIES})

@@ -8,23 +8,26 @@
 #include "../ships/ext_ship_mine.h"
 #include "../ships/ext_ship_minesweeper.h"
 
-std::shared_ptr<std_ship_base> console_input_handler::get_ship_impl()
+std::shared_ptr<std_ship_base> console_input_handler::get_ship_impl(const std::size_t & size)
 {
     char choice;
-    std::size_t size;
 
-    std::cin >> choice >> size;
+    std::cin >> choice;
 
-    if (choice == 's')
-        return std::make_shared<std_ship>(size);
-    else
-    if (choice == 'm')
-        return std::make_shared<ext_ship_mine>(size);
-    else
-    if (choice == 'r')
-        return std::make_shared<ext_ship_minesweeper>(size);
+    switch (choice)
+    {
+        case 's':
+            return std::make_shared<std_ship>(size);
 
-    return nullptr;
+        case 'm':
+            return std::make_shared<ext_ship_mine>(1);
+
+        case 'r':
+            return std::make_shared<ext_ship_minesweeper>(1);
+
+        default:
+            return nullptr;
+    }
 }
 
 coordinate_2d<std::size_t> console_input_handler::get_coordinate_impl()

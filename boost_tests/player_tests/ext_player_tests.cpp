@@ -18,44 +18,44 @@ BOOST_AUTO_TEST_SUITE(ext_player_test)
     {
         std::unique_ptr<ext_player_base> player_to_test{std::make_unique<ext_player>()};
 
-        bool is_placed_0{player_to_test->place_ship(std_ship{3}, {{1, 1},{1, 3}})};
+        bool is_placed_0{player_to_test->place_ship(std::make_shared<std_ship>(3), {{1, 1},{1, 3}})};
         BOOST_CHECK(is_placed_0);
 
-        bool is_placed_1{player_to_test->place_ship(std_ship{3}, {{1, 1},{1, 3}})};
+        bool is_placed_1{player_to_test->place_ship(std::make_shared<std_ship>(3), {{1, 1},{1, 3}})};
         BOOST_CHECK(!is_placed_1);
 
-        bool is_placed_2{player_to_test->place_ship(ext_ship_mine{3}, {{2, 1},{2, 3}})};
+        bool is_placed_2{player_to_test->place_ship(std::make_shared<ext_ship_mine>(3), {{3, 1},{3, 3}})};
         BOOST_CHECK(is_placed_2);
 
-        bool is_placed_3{player_to_test->place_ship(ext_ship_mine{3}, {{2, 0},{2, 2}})};
+        bool is_placed_3{player_to_test->place_ship(std::make_shared<ext_ship_mine>(3), {{2, 0},{2, 2}})};
         BOOST_CHECK(!is_placed_3);
     }
 
     BOOST_AUTO_TEST_CASE(attack)
     {
-        std::shared_ptr<ext_player_base> player_to_test_0{std::make_shared<ext_player>()};
-        std::shared_ptr<ext_player_base> player_to_test_1{std::make_shared<ext_player>()};
+        std::unique_ptr<std_player_base> player_to_test_0{std::make_unique<ext_player>()};
+        std::unique_ptr<std_player_base> player_to_test_1{std::make_unique<ext_player>()};
 
-        bool is_placed_0{player_to_test_0->place_ship(std_ship{3}, {{1, 1},{1, 3}})};
+        bool is_placed_0{player_to_test_0->place_ship(std::make_shared<std_ship>(3), {{1, 1},{1, 3}})};
         BOOST_CHECK(is_placed_0);
 
-        bool is_placed_1{player_to_test_0->place_ship(ext_ship_mine{3}, {{2, 1},{2, 3}})};
+        bool is_placed_1{player_to_test_0->place_ship(std::make_shared<ext_ship_mine>(3), {{3, 1},{3, 3}})};
         BOOST_CHECK(is_placed_1);
 
         auto[revealed_0, hit_0]{player_to_test_1->attack(player_to_test_0, {1, 1})};
-        BOOST_CHECK(!player_to_test_1->has_duty());
+        BOOST_CHECK(!dynamic_cast<ext_player_base*>(player_to_test_1.get())->has_duty());
         BOOST_CHECK(revealed_0 && hit_0);
 
-        auto[revealed_1, hit_1]{player_to_test_1->attack(player_to_test_0, {2, 1})};
-        BOOST_CHECK(!player_to_test_1->has_duty());
+        auto[revealed_1, hit_1]{player_to_test_1->attack(player_to_test_0, {3, 1})};
+        BOOST_CHECK(!dynamic_cast<ext_player_base*>(player_to_test_1.get())->has_duty());
         BOOST_CHECK(revealed_1 && hit_1);
 
-        auto[revealed_2, hit_2]{player_to_test_1->attack(player_to_test_0, {2, 2})};
-        BOOST_CHECK(!player_to_test_1->has_duty());
+        auto[revealed_2, hit_2]{player_to_test_1->attack(player_to_test_0, {3, 2})};
+        BOOST_CHECK(!dynamic_cast<ext_player_base*>(player_to_test_1.get())->has_duty());
         BOOST_CHECK(revealed_2 && hit_2);
 
-        auto[revealed_3, hit_3]{player_to_test_1->attack(player_to_test_0, {2, 3})};
-        BOOST_CHECK(player_to_test_1->has_duty());
+        auto[revealed_3, hit_3]{player_to_test_1->attack(player_to_test_0, {3, 3})};
+        BOOST_CHECK(dynamic_cast<ext_player_base*>(player_to_test_1.get())->has_duty());
         BOOST_CHECK(revealed_3 && hit_3);
 
         auto[revealed_4, hit_4]{player_to_test_1->attack(player_to_test_0, {0, 0})};
@@ -72,7 +72,7 @@ BOOST_AUTO_TEST_SUITE(ext_player_test)
     {
         std::unique_ptr<ext_player_base> player_to_test{std::make_unique<ext_player>()};
 
-        bool is_placed_0{player_to_test->place_ship(std_ship{3}, {{1, 1},{1, 3}})};
+        bool is_placed_0{player_to_test->place_ship(std::make_shared<std_ship>(3), {{1, 1},{1, 3}})};
         BOOST_CHECK(is_placed_0 && player_to_test->kill_self({1,1}));
         BOOST_CHECK(!player_to_test->kill_self({1,1}));
     }
@@ -81,7 +81,7 @@ BOOST_AUTO_TEST_SUITE(ext_player_test)
     {
         std::unique_ptr<ext_player_base> player_to_test{std::make_unique<ext_player>()};
 
-        bool is_placed_0{player_to_test->place_ship(std_ship{3}, {{1, 1},{1, 3}})};
+        bool is_placed_0{player_to_test->place_ship(std::make_shared<std_ship>(3), {{1, 1},{1, 3}})};
         BOOST_CHECK(is_placed_0 && player_to_test->reveal_self_ship({1,1}));
         BOOST_CHECK(!player_to_test->reveal_self_ship({1,1}));
     }

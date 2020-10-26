@@ -14,10 +14,12 @@
 class input_handler_base
 {
 private:
-    virtual std::shared_ptr<std_ship_base> get_ship_impl() = 0;
+    virtual std::shared_ptr<std_ship_base> get_ship_impl(const std::size_t &) = 0;
     virtual coordinate_2d<std::size_t> get_coordinate_impl() = 0;
 public:
-    std::shared_ptr<std_ship_base> get_ship();
+    virtual ~input_handler_base() = default;
+
+    std::shared_ptr<std_ship_base> get_ship(const std::size_t &);
     coordinate_2d<std::size_t> get_coordinate();
 };
 

@@ -11,10 +11,15 @@ std_player::std_player()
 
 bool std_player::is_ready_impl() const
 {
-    return this->field->is_all_ships_placed();
+    return this->field->current_ships() == AMOUNT_OF_BATTLE_SHIPS;
 }
 
-std::tuple<bool, bool> std_player::attack_impl(const std::shared_ptr<std_player_base> & player_to_attack, const coordinate_2d<std::size_t> & coordinate_to_attack)
+std::size_t std_player::amount_of_owned_ships_impl() const
+{
+    return this->field->current_ships();
+}
+
+std::tuple<bool, bool> std_player::attack_impl(std::unique_ptr<std_player_base> & player_to_attack, const coordinate_2d<std::size_t> & coordinate_to_attack)
 {
     bool is_revealed = player_to_attack->field->reveal(coordinate_to_attack);
 
