@@ -1,15 +1,11 @@
 //
-// Created by spector on 10/19/20.
+// Created by GloriousSir on 11/1/2020.
 //
 
 #include "input_handler_base.h"
 
-coordinate_2d<std::size_t> input_handler_base::get_coordinate()
-{
-    return get_coordinate_impl();
-}
 
-std::shared_ptr<std_ship_base> input_handler_base::get_ship(const std::size_t & size)
+bool input_handler_base::poll_event(game_event & ev)
 {
-    return get_ship_impl(size);
+    return poll_event_impl(ev);
 }

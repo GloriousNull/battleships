@@ -6,10 +6,10 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "../../src/ships/ext_ship_minesweeper.h"
+#include "../../src/ships/ext_ship/ext_ship_minesweeper.h"
 
-#include "../../src/players/std_player.h"
-#include "../../src/players/ext_player.h"
+#include "../../src/players/std_player/std_player.h"
+#include "../../src/players/ext_player/ext_player.h"
 
 BOOST_AUTO_TEST_SUITE(ext_ship_minesweeper_test)
 

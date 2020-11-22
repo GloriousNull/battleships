@@ -6,7 +6,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "../../src/utils/segment.h"
+#include "../../src/utils/math/segment.h"
 
 BOOST_AUTO_TEST_SUITE(segment_test)
 

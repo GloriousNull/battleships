@@ -4,12 +4,7 @@
 
 #include "user_interface_base.h"
 
-void user_interface_base::update()
+void user_interface_base::render(const std::unique_ptr<game_state_base> & state)
 {
-    update_impl();
-}
-
-void user_interface_base::link_game(std_game_base * game)
-{
-    game_to_show = game;
+    render_impl(state);
 }

@@ -6,11 +6,11 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "../../src/players/std_player.h"
-#include "../../src/players/ext_player.h"
+#include "../../src/players/std_player/std_player.h"
+#include "../../src/players/ext_player/ext_player.h"
 
-#include "../../src/ships/std_ship.h"
-#include "../../src/ships/ext_ship_mine.h"
+#include "../../src/ships/std_ship/std_ship.h"
+#include "../../src/ships/ext_ship/ext_ship_mine.h"
 
 BOOST_AUTO_TEST_SUITE(ext_player_test)
 
@@ -33,8 +33,8 @@ BOOST_AUTO_TEST_SUITE(ext_player_test)
 
     BOOST_AUTO_TEST_CASE(attack)
     {
-        std::unique_ptr<std_player_base> player_to_test_0{std::make_unique<ext_player>()};
-        std::unique_ptr<std_player_base> player_to_test_1{std::make_unique<ext_player>()};
+        std::unique_ptr<player_base> player_to_test_0{std::make_unique<ext_player>()};
+        std::unique_ptr<player_base> player_to_test_1{std::make_unique<ext_player>()};
 
         bool is_placed_0{player_to_test_0->place_ship(std::make_shared<std_ship>(3), {{1, 1},{1, 3}})};
         BOOST_CHECK(is_placed_0);

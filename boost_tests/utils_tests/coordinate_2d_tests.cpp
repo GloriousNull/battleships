@@ -6,7 +6,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "../../src/utils/coordinate_2d.h"
+#include "../../src/utils/math/coordinate_2d.h"
 
 BOOST_AUTO_TEST_SUITE(coordinate_2d_test)
 

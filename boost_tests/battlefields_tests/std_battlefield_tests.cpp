@@ -6,7 +6,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "../../src/ships/std_ship.h"
+#include "../../src/ships/std_ship/std_ship.h"
 
 #include "../../src/battlefields/std_battlefield.h"
 
@@ -64,19 +64,19 @@ BOOST_AUTO_TEST_SUITE(std_battlefield_test)
 
         battlefield_to_test->remove_ship_segment({2,2});
 
-        BOOST_CHECK(!battlefield_to_test->get_ship({2,2}));
+        BOOST_CHECK(battlefield_to_test->get_ship({2,2}));
 
         auto ship_1{std::make_shared<std_ship>(4)};
 
         bool placed_1{battlefield_to_test->place_ship(ship_1, {{1,1}, {1,4}})};
-        BOOST_CHECK(placed_1);
+        BOOST_CHECK(!placed_1);
 
         battlefield_to_test->remove_ship_segment({1,1});
         battlefield_to_test->remove_ship_segment({1,3});
         battlefield_to_test->remove_ship_segment({1,4});
 
         BOOST_CHECK(!battlefield_to_test->get_ship({1,1}));
-        BOOST_CHECK(ship_1 == battlefield_to_test->get_ship({1,2}));
+        BOOST_CHECK(ship_1 != battlefield_to_test->get_ship({1,2}));
         BOOST_CHECK(!battlefield_to_test->get_ship({1,3}));
         BOOST_CHECK(!battlefield_to_test->get_ship({1,4}));
     }

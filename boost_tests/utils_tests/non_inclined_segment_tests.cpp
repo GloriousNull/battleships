@@ -4,7 +4,7 @@
 
 #include <boost/test/unit_test.hpp>
 
-#include "../../src/utils/non_inclined_segment.h"
+#include "../../src/utils/math/non_inclined_segment.h"
 
 BOOST_AUTO_TEST_SUITE(non_inclined_segment_test)
 

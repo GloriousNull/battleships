@@ -5,21 +5,15 @@
 #ifndef SRC_BATTLEFIELDS_USER_INTERFACE_BASE_H
 #define SRC_BATTLEFIELDS_USER_INTERFACE_BASE_H
 
-#include "../game/std_game_base.h"
+#include "../game/game_state/game_state_base.h"
 
-class std_game_base;
 
 class user_interface_base
 {
-protected:
-    std_game_base * game_to_show;
 private:
-    virtual void update_impl() = 0;
+    virtual void render_impl(const std::unique_ptr<game_state_base> &) = 0;
 public:
-    void link_game(std_game_base *);
-    virtual ~user_interface_base() = default;
-
-    void update();
+    void render(const std::unique_ptr<game_state_base> &);
 };
 
 
