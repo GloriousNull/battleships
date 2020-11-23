@@ -13,11 +13,6 @@ class console_user_interface final : public user_interface_base
 {
 private:
     void render_impl(const std::unique_ptr<game_state_base> &) override;
-public:
-    console_user_interface()
-    {
-        std::cerr << "initialized\n";
-    }
 };
 
 

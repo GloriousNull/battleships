@@ -68,5 +68,5 @@ void console_user_interface::render_impl(const std::unique_ptr<game_state_base> 
     for (int in{0}; in < 10; ++in)
         std::cout << in << ' ';
 
-    std::cout << '\n';
+    std::cout << "\n---------------------\n";
 }
