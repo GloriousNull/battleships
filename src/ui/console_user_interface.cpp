@@ -30,15 +30,17 @@ void console_user_interface::render_impl(const std::unique_ptr<game_state_base> 
                 std::cout << '@';
             else
                 std::cout << '#';
+
+            std::cout << ' ';
         }
         std::cout << '\n';
     }
 
     std::cout << "  ";
     for (int in{0}; in < 10; ++in)
-        std::cout << in;
+        std::cout << in << ' ';
 
-    std::cout << "\nEnemy field\n";
+    std::cout << "\n\nEnemy field\n";
 
     index = 9;
     for (auto column = enemy_field.rbegin(); column != enemy_field.rend(); ++column)
@@ -56,13 +58,15 @@ void console_user_interface::render_impl(const std::unique_ptr<game_state_base> 
                 std::cout << '*';
             else
                 std::cout << '@';
+
+            std::cout << ' ';
         }
         std::cout << '\n';
     }
 
     std::cout << "  ";
     for (int in{0}; in < 10; ++in)
-        std::cout << in;
+        std::cout << in << ' ';
 
     std::cout << '\n';
 }
