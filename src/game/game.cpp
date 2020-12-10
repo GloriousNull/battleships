@@ -10,8 +10,14 @@ void game::run()
 
     while (running)
     {
-        running = game_state->process_input();
+        running = current_game_state->process_input();
 
-        user_interface->render(game_state);
+        if (!running && next_state)
+        {
+            current_game_state = std::move(next_state);
+            running = true;
+        }
+
+        user_interface->render(current_game_state);
     }
 }

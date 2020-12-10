@@ -4,9 +4,7 @@
 
 #include "game_state_base.h"
 
-std::tuple<std::span<const std::array<battlefield_base::point_info, FIELD_SIZE>, FIELD_SIZE>,
-        std::span<const std::array<battlefield_base::point_info, FIELD_SIZE>, FIELD_SIZE>>
-game_state_base::get_render_info() const
+std::unique_ptr<renderable_base> game_state_base::get_render_info() const
 {
     return get_render_info_impl();
 }

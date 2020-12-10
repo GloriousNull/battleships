@@ -6,27 +6,29 @@
 #include "../player_manager/std_player_manager.h"
 #include "../../players/std_player/std_player.h"
 #include "../../std_game_config.h"
+#include "../../ui/renderable/renderable_table.h"
+#include "../../input/console_input/std_console_input_handler.h"
 
 std_game_state::std_game_state()
 {
-    player_manager = std::make_unique<std_player_manager>(0, std::make_unique<std_player>(),
-                                                          std::make_unique<std_player>());
+    player_manager = std::make_unique<std_player_manager>(0, std::make_unique<std_console_input_handler>());
 
     stage = game_stage::preparation_stage;
     _changed = false;
 }
 
-std::tuple<std::span<const std::array<battlefield_base::point_info, FIELD_SIZE>, FIELD_SIZE>,
-           std::span<const std::array<battlefield_base::point_info, FIELD_SIZE>, FIELD_SIZE>>
-std_game_state::get_render_info_impl() const
+std_game_state::std_game_state(std::unique_ptr<player_manager_base> manager)
 {
-    return std::make_tuple(player_manager->get_user(0).player->get_field_view(),
-                           player_manager->get_user(1).player->get_field_view());
+    this->player_manager = std::move(manager);
+
+    stage = game_stage::preparation_stage;
+    _changed = false;
 }
 
-void std_game_state::handle_nick_change(const game_event & input)
+std::unique_ptr<renderable_base> std_game_state::get_render_info_impl() const
 {
-    player_manager->get_active().res.winner_name = std::move(input.change_nick.name);
+    return std::make_unique<renderable_table>(std::make_tuple(player_manager->get_user(0).player->get_field_view(),
+                                                               player_manager->get_user(1).player->get_field_view()));
 }
 
 void std_game_state::handle_attack(const game_event & input)
@@ -35,16 +37,17 @@ void std_game_state::handle_attack(const game_event & input)
         return;
 
     auto[revealed, hit] = player_manager->get_active().player->attack(player_manager->get_inactive().player,
-                                                               input.attack.coordinate_to_attack);
+                                                               input.attack->coordinate_to_attack);
 
     ++player_manager->get_active().res.amount_of_turns;
 
-    if (revealed && hit)
+    if (hit && revealed)
     {
         if (player_manager->get_inactive().player->amount_of_owned_ships() == 0)
         {
             stage = game_stage::ended;
-            res_manager.send(player_manager->get_active().res);
+//            if (player_manager->get_active_id())
+//            res_manager.send(player_manager->get_active().res);
         }
     }
     else
@@ -57,13 +60,14 @@ void std_game_state::handle_attack(const game_event & input)
 void std_game_state::handle_ship_placement(const game_event & input)
 {
     if (stage != game_stage::preparation_stage
-        || input.ship_placement.ship_to_place->size() > STD_MAX_SHIP_LENGTH
-        || player_manager->get_active().player->get_ship_counter()[input.ship_placement.ship_to_place->size()-1]
-           == STD_MAX_DECKS[input.ship_placement.ship_to_place->size()-1])
+        || input.ship_placement->ship_to_place->size() > STD_MAX_SHIP_LENGTH
+        || player_manager->get_active().player->get_ship_counter()[input.ship_placement->ship_to_place->size()-1]
+           == STD_MAX_DECKS[input.ship_placement->ship_to_place->size()-1])
         return;
 
-    _changed = player_manager->get_active().player->place_ship(std::move(input.ship_placement.ship_to_place),
-                                                        input.ship_placement.placement_space);
+    _changed = player_manager->get_active().player->place_ship(std::move(input.ship_placement->ship_to_place),
+                                                               input.ship_placement->placement_space)
+               && !player_manager->get_active_id();
 
     if (player_manager->get_active().player->is_ready())
     {
@@ -77,7 +81,7 @@ void std_game_state::handle_ship_placement(const game_event & input)
 bool std_game_state::process_input_impl()
 {
     _changed = false;
-    game_event input{};
+    game_event input;
 
     if (stage == game_stage::ended)
         return false;
@@ -86,9 +90,6 @@ bool std_game_state::process_input_impl()
 
     switch (input.type)
     {
-        case game_event::event_type::change_nick:
-            handle_nick_change(input);
-            break;
         case game_event::event_type::ship_placement:
             handle_ship_placement(input);
             break;

@@ -7,7 +7,7 @@
 
 void std_ai::set_coors(game_event & ev)
 {
-    ev.attack.coordinate_to_attack = {static_cast<std::size_t>(prev_x), static_cast<std::size_t>(prev_y)};
+    ev.attack.value().coordinate_to_attack = {static_cast<std::size_t>(prev_x), static_cast<std::size_t>(prev_y)};
 
     if (!field_to_analyze[prev_y][prev_x].containable_ship
         || (field_to_analyze[prev_y][prev_x].containable_ship

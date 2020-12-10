@@ -57,8 +57,6 @@ add_executable(
         src/ships/ext_ship/ext_ship_base.cpp src/ships/ext_ship/ext_ship_base.h src/utils/duty.h
         src/ships/ext_ship/ext_ship_mine.cpp src/ships/ext_ship/ext_ship_mine.h src/ships/ext_ship/ext_ship_minesweeper.cpp
         src/ships/ext_ship/ext_ship_minesweeper.h src/game/game.cpp src/game/game.h
-        src/input/concurrent_input_handler_base.cpp src/input/concurrent_input_handler_base.h
-        src/input/console_input/concurrent_console_input_handler.cpp src/input/console_input/concurrent_console_input_handler.h
         src/ui/user_interface_base.cpp
         src/ui/user_interface_base.h src/ui/console_user_interface.cpp src/ui/console_user_interface.h
         src/game/game_state/game_state_base.cpp src/game/game_state/game_state_base.h
@@ -69,7 +67,7 @@ add_executable(
         src/utils/database/database.cpp src/utils/database/database.h src/game/result_manager/result_manager.cpp
         src/game/result_manager/result_manager.h src/game/result_manager/game_result.h src/game/player_manager/user.cpp
         src/game/player_manager/user.h src/std_game_config.h src/ext_game_config.h
-        src/input/console_input/std_console_input_handler.cpp src/input/console_input/std_console_input_handler.h)
+        src/input/console_input/std_console_input_handler.cpp src/input/console_input/std_console_input_handler.h src/game/game_state/menu_game_state.cpp src/game/game_state/menu_game_state.h src/ui/renderable/renderable_base.cpp src/ui/renderable/renderable_base.h src/ui/renderable/renderable_table.cpp src/ui/renderable/renderable_table.h src/ui/renderable/renderable_menu.cpp src/ui/renderable/renderable_menu.h src/input/web_input/web_input_handler.cpp src/input/web_input/web_input_handler.h src/game/game_state/web_game_state.cpp src/game/game_state/web_game_state.h src/input/web_input/web_wrapper.cpp src/input/web_input/web_wrapper.h src/web/message/web_message.h src/web/message/std_message.h)
 
 target_link_libraries(battlefields ${CMAKE_THREAD_LIBS_INIT})
 target_link_libraries(battlefields soci_core soci_sqlite3)

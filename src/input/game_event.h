@@ -14,6 +14,16 @@
 
 struct game_event
 {
+    struct open_port_event
+    {
+        std::string port;
+    };
+
+    struct set_enemy_event
+    {
+        std::string address, port;
+    };
+
     struct change_nickname_event
     {
         std::string name;
@@ -32,6 +42,8 @@ struct game_event
 
     enum class event_type
     {
+        open_port,
+        set_enemy,
         change_nick,
         ship_placement,
         attack,
@@ -41,12 +53,13 @@ struct game_event
 
     event_type type;
 
-    union
-    {
-        change_nickname_event change_nick{};
-        ship_placement_event ship_placement;
-        attack_event attack;
-    };
+
+    std::optional<open_port_event> open_port;
+    std::optional<set_enemy_event> set_enemy;
+    std::optional<change_nickname_event> change_nick;
+    std::optional<ship_placement_event> ship_placement;
+    std::optional<attack_event> attack;
+
 
     game_event() : type{event_type::none} {}
     explicit game_event(event_type type) : type{type} {}
@@ -57,6 +70,12 @@ struct game_event
 
         switch (_event.type)
         {
+            case event_type::open_port:
+                this->open_port = _event.open_port;
+                break;
+            case event_type::set_enemy:
+                this->set_enemy = _event.set_enemy;
+                break;
             case event_type::change_nick:
                 this->change_nick = _event.change_nick;
                 break;
@@ -77,6 +96,12 @@ struct game_event
 
         switch (_event.type)
         {
+            case event_type::open_port:
+                this->open_port = _event.open_port;
+                break;
+            case event_type::set_enemy:
+                this->set_enemy = _event.set_enemy;
+                break;
             case event_type::change_nick:
                 this->change_nick = _event.change_nick;
                 break;
@@ -99,6 +124,12 @@ struct game_event
 
         switch (_event.type)
         {
+            case event_type::open_port:
+                this->open_port = _event.open_port;
+                break;
+            case event_type::set_enemy:
+                this->set_enemy = _event.set_enemy;
+                break;
             case event_type::change_nick:
                 this->change_nick = _event.change_nick;
                 break;
@@ -113,17 +144,5 @@ struct game_event
         }
 
         return *this;
-    }
-
-    ~game_event()
-    {
-        switch (type)
-        {
-            case game_event::event_type::ship_placement:
-                ship_placement.ship_to_place.reset();
-                break;
-            default:
-                break;
-        }
     }
 };

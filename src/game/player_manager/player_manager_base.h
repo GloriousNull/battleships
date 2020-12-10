@@ -18,13 +18,13 @@ private:
     [[nodiscard]] virtual user & get_user_impl(std::size_t) = 0;
     [[nodiscard]] virtual user & get_active_impl() = 0;
     [[nodiscard]] virtual user & get_inactive_impl() = 0;
+    [[nodiscard]] virtual std::size_t get_active_id_impl() const = 0;
     virtual void turn_impl() = 0;
 public:
-    void start_listeners(const bool &);
-    void stop_listeners();
     [[nodiscard]] user & get_user(std::size_t);
     [[nodiscard]] user & get_active();
     [[nodiscard]] user & get_inactive();
+    [[nodiscard]] std::size_t get_active_id() const;
     void turn();
 };
 

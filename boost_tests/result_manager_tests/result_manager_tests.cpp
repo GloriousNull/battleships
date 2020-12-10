@@ -33,12 +33,17 @@ BOOST_AUTO_TEST_SUITE(result_manager_test)
     {
         result_manager rm;
 
-        const char * name = "spector";
+        const char * name = "Warren";
 
         auto results = rm.receive(name);
 
+        BOOST_CHECK(!results.empty());
         for (const auto & el : results)
             BOOST_CHECK(el.winner_name == name);
+
+        results = rm.receive("what was that?");
+
+        BOOST_CHECK(results.empty());
     }
 
 BOOST_AUTO_TEST_SUITE_END()

@@ -15,6 +15,11 @@ private:
     bool horizontality;
     bool valid;
 public:
+    non_inclined_segment() : horizontality{false}, valid{false}
+    {
+        this->begin = {0,0};
+        this->end = {0,0};
+    }
     non_inclined_segment(const coordinate_2d<T> &, const coordinate_2d<T> &);
     [[nodiscard]] bool is_horizontal() const;
     [[nodiscard]] bool is_valid() const;

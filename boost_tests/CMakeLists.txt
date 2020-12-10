@@ -23,8 +23,6 @@ add_executable (boost_tests_run
         ../src/ships/ext_ship/ext_ship_mine.h ../src/ships/ext_ship/ext_ship_minesweeper.cpp
         ../src/ships/ext_ship/ext_ship_minesweeper.h ../src/game/game.cpp ../src/game/game.h
         ../src/input/input_handler_base.h ../src/input/input_handler_base.cpp
-        ../src/input/concurrent_input_handler_base.h ../src/input/concurrent_input_handler_base.cpp
-        ../src/input/console_input/concurrent_console_input_handler.h ../src/input/console_input/concurrent_console_input_handler.cpp
         ../src/ui/user_interface_base.h ../src/ui/user_interface_base.cpp ../src/ui/console_user_interface.h
         ../src/ui/console_user_interface.cpp ../src/game/game_state/game_state_base.h ../src/game/game_state/game_state_base.cpp
         ../src/game/game_state/std_game_state.h ../src/game/game_state/std_game_state.cpp ../src/game/player_manager/player_manager_base.h
