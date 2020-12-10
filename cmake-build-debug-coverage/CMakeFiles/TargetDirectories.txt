@@ -1,0 +1,6 @@
+/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles/battlefields.dir
+/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/CMakeFiles/edit_cache.dir
+/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/CMakeFiles/boost_tests_run.dir

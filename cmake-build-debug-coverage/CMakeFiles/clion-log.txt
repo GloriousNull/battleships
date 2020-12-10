@@ -1,0 +1,9 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_COMPILER=/usr/bin/g++-10 --parallel 16 -DCMAKE_CXX_FLAGS=--coverage -DCMAKE_C_FLAGS=--coverage -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/GloriousSir/CLionProjects/battleships
+-- Soci found: Looking for plugins
+--     * Plugin mysql found /usr/lib/x86_64-linux-gnu/libsoci_mysql.so.
+--     * Plugin odbc found /usr/lib/x86_64-linux-gnu/libsoci_odbc.so.
+--     * Plugin postgresql found /usr/lib/x86_64-linux-gnu/libsoci_postgresql.so.
+--     * Plugin sqlite3 found /usr/lib/x86_64-linux-gnu/libsoci_sqlite3.so.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage

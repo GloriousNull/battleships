@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="src/battlefields"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Modules\;CMake Files\boost_tests\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\;CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battlefields">
+				<Option output="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/battlefields" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 battlefields"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="battlefields/fast">
+				<Option output="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/battlefields" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 battlefields/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boost_tests_run">
+				<Option output="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/boost_tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 boost_tests_run"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="boost_tests_run/fast">
+				<Option output="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/boost_tests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBOOST_UNIT_TEST_FRAMEWORK_DYN_LINK"/>
+					<Add option="-DBOOST_ALL_NO_LIB"/>
+					<Add directory="/usr/include/c++/10"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/10"/>
+					<Add directory="/usr/include/c++/10/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/10/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 boost_tests_run/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/battlefields_tests/std_battlefield_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/player_tests/ext_player_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/player_tests/std_player_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/result_manager_tests/result_manager_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/ship_tests/ext_ship_mine_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/ship_tests/std_ship_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/utils_tests/coordinate_2d_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/utils_tests/duty_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/utils_tests/non_inclined_segment_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/utils_tests/segment_tests.cpp">
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/main.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battlefields/battlefield_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battlefields/battlefield_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battlefields/std_battlefield.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battlefields/std_battlefield.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/config.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ext_game_config.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/game_state_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/game_state_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/menu_game_state.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/menu_game_state.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/std_game_state.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/std_game_state.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/game_result.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/result_manager.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/result_manager.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/AI/std_ai.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/AI/std_ai.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/console_input/std_console_input_handler.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/console_input/std_console_input_handler.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/game_event.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/input_handler_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/input_handler_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_input_handler.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_input_handler.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_wrapper.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_wrapper.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/ext_player/ext_player.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/ext_player/ext_player.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/ext_player/ext_player_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/ext_player/ext_player_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/player_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/player_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/std_player/std_player.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/std_player/std_player.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_mine.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_mine.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_minesweeper.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_minesweeper.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ship_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ship_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/std_ship/std_ship.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/std_ship/std_ship.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/std_game_config.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/console_user_interface.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/console_user_interface.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.cpp">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/user_interface_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/user_interface_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/database/database.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/database/database.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/duty.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/math/coordinate_2d.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/math/non_inclined_segment.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/math/segment.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/web/message/std_message.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/web/message/web_message.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake/Modules/FindSoci.cmake">
+			<Option virtualFolder="CMake Files\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\boost_tests\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/BoostDetectToolset-1.71.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Boost-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_headers-1.71.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_headers-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/boost_unit_test_framework-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/boost_unit_test_framework-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/libboost_unit_test_framework-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/../../../../../../usr/lib/x86_64-linux-gnu/cmake/boost_unit_test_framework-1.71.0/libboost_unit_test_framework-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\boost_unit_test_framework-1.71.0\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/battlefields.dir/main.cpp.o"
+  "CMakeFiles/battlefields.dir/src/battlefields/battlefield_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/battlefields/std_battlefield.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/game.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/game_state/game_state_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o"
+  "CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o"
+  "CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o"
+  "CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o"
+  "CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o"
+  "CMakeFiles/battlefields.dir/src/players/ext_player/ext_player.cpp.o"
+  "CMakeFiles/battlefields.dir/src/players/ext_player/ext_player_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/players/player_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/players/std_player/std_player.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ships/ext_ship/ext_ship_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ships/ext_ship/ext_ship_mine.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ships/ext_ship/ext_ship_minesweeper.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ships/ship_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ships/std_ship/std_ship.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ui/console_user_interface.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o"
+  "CMakeFiles/battlefields.dir/src/ui/user_interface_base.cpp.o"
+  "CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o"
+  "battlefields"
+  "battlefields.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/battlefields.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
