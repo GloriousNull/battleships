@@ -12,7 +12,7 @@ BOOST_AUTO_TEST_SUITE(duty_test)
 
     BOOST_AUTO_TEST_CASE(fullfield)
     {
-        duty<> duty_to_test{+[](){return true;}};
+        duty<> duty_to_test{+[](){return true;}, "test"};
 
         duty_to_test.try_to_fulfill();
 
@@ -21,7 +21,7 @@ BOOST_AUTO_TEST_SUITE(duty_test)
 
     BOOST_AUTO_TEST_CASE(not_fullfield)
     {
-        duty<> duty_to_test{+[](){return false;}};
+        duty<> duty_to_test{+[](){return false;}, "test"};
 
         duty_to_test.try_to_fulfill();
 

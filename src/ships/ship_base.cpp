@@ -9,6 +9,11 @@ void ship_base::apply_damage()
     apply_damage_impl();
 }
 
+std::unique_ptr<renderable_ship> ship_base::get_render_info() const
+{
+    return get_render_info_impl();
+}
+
 bool ship_base::is_destroyed() const
 {
     return is_destroyed_impl();

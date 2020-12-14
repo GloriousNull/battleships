@@ -6,11 +6,8 @@
 
 void console_user_interface::render_impl(const std::unique_ptr<game_state_base> & state)
 {
-    if (state && !state->changed())
-        return;
-
     auto to_render = state->get_render_info();
 
-    if (to_render)
-        to_render->render();
+    for (const auto & renderable : to_render)
+        renderable->render();
 }

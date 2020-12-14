@@ -9,7 +9,7 @@ add_executable (boost_tests_run
         ship_tests/std_ship_tests.cpp ship_tests/ext_ship_mine_tests.cpp
         utils_tests/coordinate_2d_tests.cpp utils_tests/segment_tests.cpp utils_tests/non_inclined_segment_tests.cpp utils_tests/duty_tests.cpp
         battlefields_tests/std_battlefield_tests.cpp
-        player_tests/std_player_tests.cpp  player_tests/ext_player_tests.cpp result_manager_tests/result_manager_tests.cpp
+        player_tests/std_player_tests.cpp  player_tests/ext_player_tests.cpp
 
         ../src/utils/database/database.h ../src/utils/database/database.cpp
         ../src/battlefields/std_battlefield.h ../src/players/std_player/std_player.h ../src/ships/ship_base.cpp ../src/ships/ship_base.h
@@ -26,10 +26,19 @@ add_executable (boost_tests_run
         ../src/ui/user_interface_base.h ../src/ui/user_interface_base.cpp ../src/ui/console_user_interface.h
         ../src/ui/console_user_interface.cpp ../src/game/game_state/game_state_base.h ../src/game/game_state/game_state_base.cpp
         ../src/game/game_state/std_game_state.h ../src/game/game_state/std_game_state.cpp ../src/game/player_manager/player_manager_base.h
-        ../src/game/player_manager/player_manager_base.cpp ../src/game/player_manager/std_player_manager.h
-        ../src/game/player_manager/std_player_manager.cpp ../src/game/result_manager/result_manager.h ../src/game/result_manager/result_manager.cpp
+        ../src/game/player_manager/player_manager.h
+        ../src/game/result_manager/result_manager.h ../src/game/result_manager/result_manager.cpp
         ../src/game/result_manager/game_result.h ../src/input/AI/std_ai.h ../src/input/AI/std_ai.cpp
-        ../src/input/console_input/std_console_input_handler.h ../src/input/console_input/std_console_input_handler.cpp)
+        ../src/input/console_input/std_console_input_handler.h ../src/input/console_input/std_console_input_handler.cpp
+        ../src/ui/renderable/renderable_base.h ../src/ui/renderable/renderable_base.cpp
+        ../src/ui/renderable/renderable_menu.h ../src/ui/renderable/renderable_menu.cpp
+        ../src/ui/renderable/renderable_message.h ../src/ui/renderable/renderable_message.cpp
+        ../src/ui/renderable/renderable_ship.h ../src/ui/renderable/renderable_ship.cpp
+        ../src/ui/renderable/renderable_table.h ../src/ui/renderable/renderable_table.cpp
+        ../src/ui/renderable/renderable_turn_indicator.h ../src/ui/renderable/renderable_turn_indicator.cpp
+        ../src/game/game_state/action_state_base.h ../src/game/game_state/action_state_base.cpp
+        ../src/game/game_state/ext_game_state.h ../src/game/game_state/ext_game_state.cpp
+        ../src/ui/renderable/renderable_results_board.h ../src/ui/renderable/renderable_results_board.cpp)
 
 include_directories(/usr/include)
 link_directories(/usr/lib)

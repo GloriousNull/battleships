@@ -278,35 +278,9 @@ CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.s: cmake_forc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.s"
 	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/std_game_state.cpp -o CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.s
 
-CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o: CMakeFiles/battlefields.dir/flags.make
-CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o: ../src/game/player_manager/player_manager_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp
-
-CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp > CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.i
-
-CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp -o CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.s
-
-CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o: CMakeFiles/battlefields.dir/flags.make
-CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o: ../src/game/player_manager/std_player_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp
-
-CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp > CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.i
-
-CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp -o CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.s
-
 CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o: ../src/input/input_handler_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/input_handler_base.cpp
 
 CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.i: cmake_force
@@ -319,7 +293,7 @@ CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.s: cmake_force
 
 CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o: ../src/input/AI/std_ai.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/AI/std_ai.cpp
 
 CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.i: cmake_force
@@ -332,7 +306,7 @@ CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.s: cmake_force
 
 CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o: ../src/utils/database/database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/database/database.cpp
 
 CMakeFiles/battlefields.dir/src/utils/database/database.cpp.i: cmake_force
@@ -345,7 +319,7 @@ CMakeFiles/battlefields.dir/src/utils/database/database.cpp.s: cmake_force
 
 CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o: ../src/game/result_manager/result_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/result_manager.cpp
 
 CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.i: cmake_force
@@ -356,22 +330,9 @@ CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.s"
 	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/result_manager.cpp -o CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.s
 
-CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o: CMakeFiles/battlefields.dir/flags.make
-CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o: ../src/game/player_manager/user.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.cpp
-
-CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.cpp > CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.i
-
-CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.cpp -o CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.s
-
 CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o: ../src/input/console_input/std_console_input_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/console_input/std_console_input_handler.cpp
 
 CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.i: cmake_force
@@ -384,7 +345,7 @@ CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cp
 
 CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o: ../src/game/game_state/menu_game_state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/menu_game_state.cpp
 
 CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.i: cmake_force
@@ -397,7 +358,7 @@ CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.s: cmake_for
 
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o: ../src/ui/renderable/renderable_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.cpp
 
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.i: cmake_force
@@ -410,7 +371,7 @@ CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.s: cmake_force
 
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o: ../src/ui/renderable/renderable_table.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.cpp
 
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.i: cmake_force
@@ -423,7 +384,7 @@ CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.s: cmake_forc
 
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o: ../src/ui/renderable/renderable_menu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.cpp
 
 CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.i: cmake_force
@@ -436,7 +397,7 @@ CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.s: cmake_force
 
 CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o: ../src/input/web_input/web_input_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_input_handler.cpp
 
 CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.i: cmake_force
@@ -447,22 +408,9 @@ CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.s"
 	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_input_handler.cpp -o CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.s
 
-CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o: CMakeFiles/battlefields.dir/flags.make
-CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o: ../src/game/game_state/web_game_state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.cpp
-
-CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.cpp > CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.i
-
-CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.cpp -o CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.s
-
 CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o: CMakeFiles/battlefields.dir/flags.make
 CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o: ../src/input/web_input/web_wrapper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o"
 	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_wrapper.cpp
 
 CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.i: cmake_force
@@ -473,18 +421,83 @@ CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.s"
 	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/web_input/web_wrapper.cpp -o CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.s
 
-CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o: CMakeFiles/battlefields.dir/flags.make
-CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o: ../src/game/state_manager/state_manager_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o"
-	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.cpp
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o: CMakeFiles/battlefields.dir/flags.make
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o: ../src/ui/renderable/renderable_turn_indicator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o"
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp
 
-CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.i"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.cpp > CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.i
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp > CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.i
 
-CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.s"
-	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.cpp -o CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.s
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.s
+
+CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o: CMakeFiles/battlefields.dir/flags.make
+CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o: ../src/game/game_state/ext_game_state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o"
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp
+
+CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp > CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.i
+
+CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp -o CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.s
+
+CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o: CMakeFiles/battlefields.dir/flags.make
+CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o: ../src/game/game_state/action_state_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o"
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp
+
+CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp > CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.i
+
+CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp -o CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.s
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o: CMakeFiles/battlefields.dir/flags.make
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o: ../src/ui/renderable/renderable_ship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o"
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp > CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.i
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.s
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o: CMakeFiles/battlefields.dir/flags.make
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o: ../src/ui/renderable/renderable_message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o"
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp > CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.i
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.s
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o: CMakeFiles/battlefields.dir/flags.make
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o: ../src/ui/renderable/renderable_results_board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o"
+	/usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.i"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp > CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.i
+
+CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.s"
+	/usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp -o CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.s
 
 # Object files for target battlefields
 battlefields_OBJECTS = \
@@ -505,22 +518,23 @@ battlefields_OBJECTS = \
 "CMakeFiles/battlefields.dir/src/ui/console_user_interface.cpp.o" \
 "CMakeFiles/battlefields.dir/src/game/game_state/game_state_base.cpp.o" \
 "CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.o" \
-"CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o" \
-"CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o" \
 "CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o" \
 "CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o" \
 "CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o" \
 "CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o" \
-"CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o" \
 "CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o" \
 "CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o" \
 "CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o" \
 "CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o" \
 "CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o" \
 "CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o" \
-"CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o" \
 "CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o" \
-"CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o"
+"CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o" \
+"CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o" \
+"CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o" \
+"CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o" \
+"CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o" \
+"CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o"
 
 # External object files for target battlefields
 battlefields_EXTERNAL_OBJECTS =
@@ -542,25 +556,26 @@ battlefields: CMakeFiles/battlefields.dir/src/ui/user_interface_base.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/ui/console_user_interface.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/game/game_state/game_state_base.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.o
-battlefields: CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o
-battlefields: CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/input/input_handler_base.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/input/AI/std_ai.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/utils/database/database.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.o
-battlefields: CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/input/console_input/std_console_input_handler.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/game/game_state/menu_game_state.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_base.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/input/web_input/web_input_handler.cpp.o
-battlefields: CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o
 battlefields: CMakeFiles/battlefields.dir/src/input/web_input/web_wrapper.cpp.o
-battlefields: CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o
+battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o
+battlefields: CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o
+battlefields: CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o
+battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o
+battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o
+battlefields: CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o
 battlefields: CMakeFiles/battlefields.dir/build.make
 battlefields: CMakeFiles/battlefields.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable battlefields"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Linking CXX executable battlefields"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battlefields.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

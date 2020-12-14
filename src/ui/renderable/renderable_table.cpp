@@ -7,12 +7,10 @@
 
 void renderable_table::render_impl() const
 {
-    auto[player_field, enemy_field] = table_to_render;
-
     std::cout << "Your field\n";
 
     std::size_t index{9};
-    for (auto column = player_field.rbegin(); column != player_field.rend(); ++column)
+    for (auto column = player_table.rbegin(); column != player_table.rend(); ++column)
     {
         std::cout << index-- << ' ';
         for (const auto & row_el : *column)
@@ -21,7 +19,7 @@ void renderable_table::render_impl() const
                 std::cout << '!';
             else
             if(row_el.containable_ship)
-                std::cout << '*';
+                row_el.containable_ship->get_render_info()->render();
             else
             if (row_el._status == std_battlefield::point_info::status::open)
                 std::cout << '@';
@@ -40,7 +38,7 @@ void renderable_table::render_impl() const
     std::cout << "\n\nEnemy field\n";
 
     index = 9;
-    for (auto column = enemy_field.rbegin(); column != enemy_field.rend(); ++column)
+    for (auto column = enemy_table.rbegin(); column != enemy_table.rend(); ++column)
     {
         std::cout << index-- << ' ';
         for (const auto & row_el : *column)
@@ -52,7 +50,7 @@ void renderable_table::render_impl() const
                 std::cout << '!';
             else
             if(row_el.containable_ship)
-                std::cout << '*';
+                row_el.containable_ship->get_render_info()->render();
             else
                 std::cout << '@';
 

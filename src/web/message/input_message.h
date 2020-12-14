@@ -9,8 +9,9 @@
 
 #include <cstdint>
 
-enum class std_message : std::uint8_t
+enum class input_message : std::uint8_t
 {
     place_ship,
-    attack
+    attack,
+    duty
 };

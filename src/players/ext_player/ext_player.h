@@ -10,6 +10,7 @@
 class ext_player final : public ext_player_base, public std::enable_shared_from_this<ext_player_base>
 {
 private:
+    std::unique_ptr<renderable_message> get_render_info_impl() const override;
     [[nodiscard]] bool has_duty_impl() const override;
     void fulfill_duty_impl(const coordinate_2d<std::size_t> &) override;
     [[nodiscard]] bool reveal_self_ship_impl(const coordinate_2d<std::size_t> &) override;

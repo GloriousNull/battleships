@@ -174,22 +174,9 @@ boost_tests/CMakeFiles/boost_tests_run.dir/player_tests/ext_player_tests.cpp.s: 
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/player_tests/ext_player_tests.cpp.s"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/player_tests/ext_player_tests.cpp -o CMakeFiles/boost_tests_run.dir/player_tests/ext_player_tests.cpp.s
 
-boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
-boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o: ../boost_tests/result_manager_tests/result_manager_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/result_manager_tests/result_manager_tests.cpp
-
-boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.i"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/result_manager_tests/result_manager_tests.cpp > CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.i
-
-boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.s"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/result_manager_tests/result_manager_tests.cpp -o CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.s
-
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o: ../src/utils/database/database.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/utils/database/database.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.i: cmake_force
@@ -202,7 +189,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.s:
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o: ../src/ships/ship_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ship_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.i: cmake_force
@@ -215,7 +202,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.s: cmake_f
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o: ../src/battlefields/std_battlefield.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battlefields/std_battlefield.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.i: cmake_force
@@ -228,7 +215,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.c
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.cpp.o: ../src/players/std_player/std_player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/std_player/std_player.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.cpp.i: cmake_force
@@ -241,7 +228,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/std_player/std_player.
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.o: ../src/players/player_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/player_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.i: cmake_force
@@ -254,7 +241,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/player_base.cpp.s: cma
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_base.cpp.o: ../src/players/ext_player/ext_player_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/ext_player/ext_player_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_base.cpp.i: cmake_force
@@ -267,7 +254,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player_
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.cpp.o: ../src/players/ext_player/ext_player.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/players/ext_player/ext_player.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.cpp.i: cmake_force
@@ -280,7 +267,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/players/ext_player/ext_player.
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.cpp.o: ../src/battlefields/battlefield_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/battlefields/battlefield_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.cpp.i: cmake_force
@@ -293,7 +280,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/battlefield_base.
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.o: ../src/ships/std_ship/std_ship.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/std_ship/std_ship.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.i: cmake_force
@@ -306,7 +293,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/std_ship/std_ship.cpp.s:
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.cpp.o: ../src/ships/ext_ship/ext_ship_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.cpp.i: cmake_force
@@ -319,7 +306,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_base.c
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.cpp.o: ../src/ships/ext_ship/ext_ship_mine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_mine.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.cpp.i: cmake_force
@@ -332,7 +319,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_mine.c
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesweeper.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesweeper.cpp.o: ../src/ships/ext_ship/ext_ship_minesweeper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesweeper.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesweeper.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesweeper.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ships/ext_ship/ext_ship_minesweeper.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesweeper.cpp.i: cmake_force
@@ -345,7 +332,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ext_ship/ext_ship_minesw
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.o: ../src/game/game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.i: cmake_force
@@ -358,7 +345,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.s: cmake_force
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.o: ../src/input/input_handler_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/input_handler_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.i: cmake_force
@@ -371,7 +358,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/input_handler_base.cpp.s
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.o: ../src/ui/user_interface_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/user_interface_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.i: cmake_force
@@ -384,7 +371,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/user_interface_base.cpp.s: 
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o: ../src/ui/console_user_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/console_user_interface.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.i: cmake_force
@@ -397,7 +384,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o: ../src/game/game_state/game_state_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/game_state_base.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.i: cmake_force
@@ -410,7 +397,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_bas
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o: ../src/game/game_state/std_game_state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/std_game_state.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.i: cmake_force
@@ -421,35 +408,9 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.s"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/std_game_state.cpp -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.s
 
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o: ../src/game/player_manager/player_manager_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp
-
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.i"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp > CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.i
-
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.s"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp -o CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.s
-
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o: ../src/game/player_manager/std_player_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp
-
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.i"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp > CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.i
-
-boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.s"
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp -o CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.s
-
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o: ../src/game/result_manager/result_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/result_manager.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.i: cmake_force
@@ -462,7 +423,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_man
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o: ../src/input/AI/std_ai.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/AI/std_ai.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.i: cmake_force
@@ -475,7 +436,7 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.s: cmake_f
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o: ../src/input/console_input/std_console_input_handler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/console_input/std_console_input_handler.cpp
 
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.i: cmake_force
@@ -485,6 +446,123 @@ boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_consol
 boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.s"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/console_input/std_console_input_handler.cpp -o CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o: ../src/ui/renderable/renderable_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o: ../src/ui/renderable/renderable_menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o: ../src/ui/renderable/renderable_message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o: ../src/ui/renderable/renderable_ship.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o: ../src/ui/renderable/renderable_table.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o: ../src/ui/renderable/renderable_turn_indicator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o: ../src/game/game_state/action_state_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp > CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o: ../src/game/game_state/ext_game_state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp > CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp -o CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.s
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o: boost_tests/CMakeFiles/boost_tests_run.dir/flags.make
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o: ../src/ui/renderable/renderable_results_board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o -c /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.i"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp > CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.i
+
+boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.s"
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && /usr/bin/g++-10 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp -o CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.s
 
 # Object files for target boost_tests_run
 boost_tests_run_OBJECTS = \
@@ -497,7 +575,6 @@ boost_tests_run_OBJECTS = \
 "CMakeFiles/boost_tests_run.dir/battlefields_tests/std_battlefield_tests.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/player_tests/std_player_tests.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/player_tests/ext_player_tests.cpp.o" \
-"CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o" \
@@ -516,11 +593,18 @@ boost_tests_run_OBJECTS = \
 "CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o" \
-"CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o" \
-"CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o" \
 "CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o" \
-"CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o"
+"CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o" \
+"CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o"
 
 # External object files for target boost_tests_run
 boost_tests_run_EXTERNAL_OBJECTS =
@@ -534,7 +618,6 @@ boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/utils_te
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/battlefields_tests/std_battlefield_tests.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/player_tests/std_player_tests.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/player_tests/ext_player_tests.cpp.o
-boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/utils/database/database.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ships/ship_base.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/battlefields/std_battlefield.cpp.o
@@ -553,15 +636,22 @@ boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/u
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/game_state_base.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.o
-boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o
-boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/result_manager/result_manager.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/AI/std_ai.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/input/console_input/std_console_input_handler.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o
+boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/build.make
 boost_tests/boost_tests_run: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.71.0
 boost_tests/boost_tests_run: boost_tests/CMakeFiles/boost_tests_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX executable boost_tests_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable boost_tests_run"
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage/boost_tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/boost_tests_run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

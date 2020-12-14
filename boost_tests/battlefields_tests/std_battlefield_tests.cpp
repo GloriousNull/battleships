@@ -64,7 +64,7 @@ BOOST_AUTO_TEST_SUITE(std_battlefield_test)
 
         battlefield_to_test->remove_ship_segment({2,2});
 
-        BOOST_CHECK(battlefield_to_test->get_ship({2,2}));
+        BOOST_CHECK(!battlefield_to_test->get_ship({2,2}));
 
         auto ship_1{std::make_shared<std_ship>(4)};
 

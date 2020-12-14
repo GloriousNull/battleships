@@ -5,12 +5,14 @@
 #ifndef SRC_BATTLEFIELDS_EVENT_H
 #define SRC_BATTLEFIELDS_EVENT_H
 
-#endif //SRC_BATTLEFIELDS_EVENT_H
-
 #include <memory>
 
 #include "../utils/math/non_inclined_segment.h"
 #include "../ships/ship_base.h"
+#include "../players/player_base.h"
+#include "../game/game_state/action_state_base.h"
+
+class action_state_base;
 
 struct game_event
 {
@@ -19,8 +21,11 @@ struct game_event
         std::string port;
     };
 
-    struct set_enemy_event
+    struct start_game_event
     {
+        enum class game_type : std::uint8_t {std, ext};
+        game_type type;
+        action_state_base * state_to_start;
         std::string address, port;
     };
 
@@ -31,6 +36,7 @@ struct game_event
 
     struct ship_placement_event
     {
+        char ship_type;
         std::shared_ptr<ship_base> ship_to_place;
         non_inclined_segment<std::size_t, std::size_t> placement_space;
     };
@@ -43,10 +49,11 @@ struct game_event
     enum class event_type
     {
         open_port,
-        set_enemy,
+        start_game,
         change_nick,
         ship_placement,
         attack,
+        duty,
         quit,
         none
     };
@@ -55,7 +62,7 @@ struct game_event
 
 
     std::optional<open_port_event> open_port;
-    std::optional<set_enemy_event> set_enemy;
+    std::optional<start_game_event> start_game;
     std::optional<change_nickname_event> change_nick;
     std::optional<ship_placement_event> ship_placement;
     std::optional<attack_event> attack;
@@ -73,8 +80,8 @@ struct game_event
             case event_type::open_port:
                 this->open_port = _event.open_port;
                 break;
-            case event_type::set_enemy:
-                this->set_enemy = _event.set_enemy;
+            case event_type::start_game:
+                this->start_game = _event.start_game;
                 break;
             case event_type::change_nick:
                 this->change_nick = _event.change_nick;
@@ -99,8 +106,8 @@ struct game_event
             case event_type::open_port:
                 this->open_port = _event.open_port;
                 break;
-            case event_type::set_enemy:
-                this->set_enemy = _event.set_enemy;
+            case event_type::start_game:
+                this->start_game = _event.start_game;
                 break;
             case event_type::change_nick:
                 this->change_nick = _event.change_nick;
@@ -127,8 +134,8 @@ struct game_event
             case event_type::open_port:
                 this->open_port = _event.open_port;
                 break;
-            case event_type::set_enemy:
-                this->set_enemy = _event.set_enemy;
+            case event_type::start_game:
+                this->start_game = _event.start_game;
                 break;
             case event_type::change_nick:
                 this->change_nick = _event.change_nick;
@@ -146,3 +153,5 @@ struct game_event
         return *this;
     }
 };
+
+#endif //SRC_BATTLEFIELDS_EVENT_H

@@ -7,14 +7,16 @@
 
 #include <memory>
 
-#include "../../players/player_base.h"
 #include "../../input/input_handler_base.h"
 #include "../result_manager/game_result.h"
 
+class input_handler_base;
+
+template <typename T>
 class user
 {
 public:
-    std::unique_ptr<player_base> player;
+    std::unique_ptr<T> player;
     std::unique_ptr<input_handler_base> input_handler;
     game_result res{"John Doe", 0};
 };

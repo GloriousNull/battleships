@@ -11,14 +11,22 @@ class duty
 private:
     bool fulfilled;
     bool(*work)(ARGS...);
+    const char * duty_message;
 public:
     duty() : fulfilled{false}, work{nullptr} {}
-    explicit duty(auto work) : work{work} {}
+    duty(auto work, const char * m) : work{work}, duty_message{m} {}
 
     void set_work(auto duty);
     [[nodiscard]] bool is_fulfilled() const;
     void try_to_fulfill(ARGS...);
+    const char * get_message() const;
 };
+
+template<typename ...ARGS>
+const char * duty<ARGS...>::get_message() const
+{
+    return duty_message;
+}
 
 template<typename ...ARGS>
 void duty<ARGS...>::set_work(auto _work)

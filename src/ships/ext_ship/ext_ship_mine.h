@@ -11,6 +11,7 @@ class ext_ship_mine final : public ext_ship_base
 {
 private:
     void apply_damage_impl() override;
+    [[nodiscard]] std::unique_ptr<renderable_ship> get_render_info_impl() const override;
     [[nodiscard]] bool is_destroyed_impl() const override;
     [[nodiscard]] duty<ext_player_base &, const coordinate_2d<std::size_t> &> on_destroy_impl() const override;
 public:

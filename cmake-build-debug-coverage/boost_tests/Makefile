@@ -206,6 +206,60 @@ __/src/game/game.cpp.s:
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game.cpp.s
 .PHONY : __/src/game/game.cpp.s
 
+__/src/game/game_state/action_state_base.o: __/src/game/game_state/action_state_base.cpp.o
+
+.PHONY : __/src/game/game_state/action_state_base.o
+
+# target to build an object file
+__/src/game/game_state/action_state_base.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.o
+.PHONY : __/src/game/game_state/action_state_base.cpp.o
+
+__/src/game/game_state/action_state_base.i: __/src/game/game_state/action_state_base.cpp.i
+
+.PHONY : __/src/game/game_state/action_state_base.i
+
+# target to preprocess a source file
+__/src/game/game_state/action_state_base.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.i
+.PHONY : __/src/game/game_state/action_state_base.cpp.i
+
+__/src/game/game_state/action_state_base.s: __/src/game/game_state/action_state_base.cpp.s
+
+.PHONY : __/src/game/game_state/action_state_base.s
+
+# target to generate assembly for a file
+__/src/game/game_state/action_state_base.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/action_state_base.cpp.s
+.PHONY : __/src/game/game_state/action_state_base.cpp.s
+
+__/src/game/game_state/ext_game_state.o: __/src/game/game_state/ext_game_state.cpp.o
+
+.PHONY : __/src/game/game_state/ext_game_state.o
+
+# target to build an object file
+__/src/game/game_state/ext_game_state.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.o
+.PHONY : __/src/game/game_state/ext_game_state.cpp.o
+
+__/src/game/game_state/ext_game_state.i: __/src/game/game_state/ext_game_state.cpp.i
+
+.PHONY : __/src/game/game_state/ext_game_state.i
+
+# target to preprocess a source file
+__/src/game/game_state/ext_game_state.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.i
+.PHONY : __/src/game/game_state/ext_game_state.cpp.i
+
+__/src/game/game_state/ext_game_state.s: __/src/game/game_state/ext_game_state.cpp.s
+
+.PHONY : __/src/game/game_state/ext_game_state.s
+
+# target to generate assembly for a file
+__/src/game/game_state/ext_game_state.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/ext_game_state.cpp.s
+.PHONY : __/src/game/game_state/ext_game_state.cpp.s
+
 __/src/game/game_state/game_state_base.o: __/src/game/game_state/game_state_base.cpp.o
 
 .PHONY : __/src/game/game_state/game_state_base.o
@@ -259,60 +313,6 @@ __/src/game/game_state/std_game_state.s: __/src/game/game_state/std_game_state.c
 __/src/game/game_state/std_game_state.cpp.s:
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/game_state/std_game_state.cpp.s
 .PHONY : __/src/game/game_state/std_game_state.cpp.s
-
-__/src/game/player_manager/player_manager_base.o: __/src/game/player_manager/player_manager_base.cpp.o
-
-.PHONY : __/src/game/player_manager/player_manager_base.o
-
-# target to build an object file
-__/src/game/player_manager/player_manager_base.cpp.o:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.o
-.PHONY : __/src/game/player_manager/player_manager_base.cpp.o
-
-__/src/game/player_manager/player_manager_base.i: __/src/game/player_manager/player_manager_base.cpp.i
-
-.PHONY : __/src/game/player_manager/player_manager_base.i
-
-# target to preprocess a source file
-__/src/game/player_manager/player_manager_base.cpp.i:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.i
-.PHONY : __/src/game/player_manager/player_manager_base.cpp.i
-
-__/src/game/player_manager/player_manager_base.s: __/src/game/player_manager/player_manager_base.cpp.s
-
-.PHONY : __/src/game/player_manager/player_manager_base.s
-
-# target to generate assembly for a file
-__/src/game/player_manager/player_manager_base.cpp.s:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/player_manager_base.cpp.s
-.PHONY : __/src/game/player_manager/player_manager_base.cpp.s
-
-__/src/game/player_manager/std_player_manager.o: __/src/game/player_manager/std_player_manager.cpp.o
-
-.PHONY : __/src/game/player_manager/std_player_manager.o
-
-# target to build an object file
-__/src/game/player_manager/std_player_manager.cpp.o:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.o
-.PHONY : __/src/game/player_manager/std_player_manager.cpp.o
-
-__/src/game/player_manager/std_player_manager.i: __/src/game/player_manager/std_player_manager.cpp.i
-
-.PHONY : __/src/game/player_manager/std_player_manager.i
-
-# target to preprocess a source file
-__/src/game/player_manager/std_player_manager.cpp.i:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.i
-.PHONY : __/src/game/player_manager/std_player_manager.cpp.i
-
-__/src/game/player_manager/std_player_manager.s: __/src/game/player_manager/std_player_manager.cpp.s
-
-.PHONY : __/src/game/player_manager/std_player_manager.s
-
-# target to generate assembly for a file
-__/src/game/player_manager/std_player_manager.cpp.s:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/game/player_manager/std_player_manager.cpp.s
-.PHONY : __/src/game/player_manager/std_player_manager.cpp.s
 
 __/src/game/result_manager/result_manager.o: __/src/game/result_manager/result_manager.cpp.o
 
@@ -692,6 +692,195 @@ __/src/ui/console_user_interface.cpp.s:
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/console_user_interface.cpp.s
 .PHONY : __/src/ui/console_user_interface.cpp.s
 
+__/src/ui/renderable/renderable_base.o: __/src/ui/renderable/renderable_base.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_base.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_base.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.o
+.PHONY : __/src/ui/renderable/renderable_base.cpp.o
+
+__/src/ui/renderable/renderable_base.i: __/src/ui/renderable/renderable_base.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_base.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_base.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.i
+.PHONY : __/src/ui/renderable/renderable_base.cpp.i
+
+__/src/ui/renderable/renderable_base.s: __/src/ui/renderable/renderable_base.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_base.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_base.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_base.cpp.s
+.PHONY : __/src/ui/renderable/renderable_base.cpp.s
+
+__/src/ui/renderable/renderable_menu.o: __/src/ui/renderable/renderable_menu.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_menu.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_menu.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.o
+.PHONY : __/src/ui/renderable/renderable_menu.cpp.o
+
+__/src/ui/renderable/renderable_menu.i: __/src/ui/renderable/renderable_menu.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_menu.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_menu.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.i
+.PHONY : __/src/ui/renderable/renderable_menu.cpp.i
+
+__/src/ui/renderable/renderable_menu.s: __/src/ui/renderable/renderable_menu.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_menu.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_menu.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_menu.cpp.s
+.PHONY : __/src/ui/renderable/renderable_menu.cpp.s
+
+__/src/ui/renderable/renderable_message.o: __/src/ui/renderable/renderable_message.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_message.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_message.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.o
+.PHONY : __/src/ui/renderable/renderable_message.cpp.o
+
+__/src/ui/renderable/renderable_message.i: __/src/ui/renderable/renderable_message.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_message.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_message.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.i
+.PHONY : __/src/ui/renderable/renderable_message.cpp.i
+
+__/src/ui/renderable/renderable_message.s: __/src/ui/renderable/renderable_message.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_message.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_message.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_message.cpp.s
+.PHONY : __/src/ui/renderable/renderable_message.cpp.s
+
+__/src/ui/renderable/renderable_results_board.o: __/src/ui/renderable/renderable_results_board.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_results_board.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_results_board.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.o
+.PHONY : __/src/ui/renderable/renderable_results_board.cpp.o
+
+__/src/ui/renderable/renderable_results_board.i: __/src/ui/renderable/renderable_results_board.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_results_board.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_results_board.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.i
+.PHONY : __/src/ui/renderable/renderable_results_board.cpp.i
+
+__/src/ui/renderable/renderable_results_board.s: __/src/ui/renderable/renderable_results_board.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_results_board.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_results_board.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_results_board.cpp.s
+.PHONY : __/src/ui/renderable/renderable_results_board.cpp.s
+
+__/src/ui/renderable/renderable_ship.o: __/src/ui/renderable/renderable_ship.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_ship.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_ship.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.o
+.PHONY : __/src/ui/renderable/renderable_ship.cpp.o
+
+__/src/ui/renderable/renderable_ship.i: __/src/ui/renderable/renderable_ship.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_ship.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_ship.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.i
+.PHONY : __/src/ui/renderable/renderable_ship.cpp.i
+
+__/src/ui/renderable/renderable_ship.s: __/src/ui/renderable/renderable_ship.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_ship.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_ship.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_ship.cpp.s
+.PHONY : __/src/ui/renderable/renderable_ship.cpp.s
+
+__/src/ui/renderable/renderable_table.o: __/src/ui/renderable/renderable_table.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_table.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_table.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.o
+.PHONY : __/src/ui/renderable/renderable_table.cpp.o
+
+__/src/ui/renderable/renderable_table.i: __/src/ui/renderable/renderable_table.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_table.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_table.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.i
+.PHONY : __/src/ui/renderable/renderable_table.cpp.i
+
+__/src/ui/renderable/renderable_table.s: __/src/ui/renderable/renderable_table.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_table.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_table.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_table.cpp.s
+.PHONY : __/src/ui/renderable/renderable_table.cpp.s
+
+__/src/ui/renderable/renderable_turn_indicator.o: __/src/ui/renderable/renderable_turn_indicator.cpp.o
+
+.PHONY : __/src/ui/renderable/renderable_turn_indicator.o
+
+# target to build an object file
+__/src/ui/renderable/renderable_turn_indicator.cpp.o:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.o
+.PHONY : __/src/ui/renderable/renderable_turn_indicator.cpp.o
+
+__/src/ui/renderable/renderable_turn_indicator.i: __/src/ui/renderable/renderable_turn_indicator.cpp.i
+
+.PHONY : __/src/ui/renderable/renderable_turn_indicator.i
+
+# target to preprocess a source file
+__/src/ui/renderable/renderable_turn_indicator.cpp.i:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.i
+.PHONY : __/src/ui/renderable/renderable_turn_indicator.cpp.i
+
+__/src/ui/renderable/renderable_turn_indicator.s: __/src/ui/renderable/renderable_turn_indicator.cpp.s
+
+.PHONY : __/src/ui/renderable/renderable_turn_indicator.s
+
+# target to generate assembly for a file
+__/src/ui/renderable/renderable_turn_indicator.cpp.s:
+	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/__/src/ui/renderable/renderable_turn_indicator.cpp.s
+.PHONY : __/src/ui/renderable/renderable_turn_indicator.cpp.s
+
 __/src/ui/user_interface_base.o: __/src/ui/user_interface_base.cpp.o
 
 .PHONY : __/src/ui/user_interface_base.o
@@ -826,33 +1015,6 @@ player_tests/std_player_tests.s: player_tests/std_player_tests.cpp.s
 player_tests/std_player_tests.cpp.s:
 	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/player_tests/std_player_tests.cpp.s
 .PHONY : player_tests/std_player_tests.cpp.s
-
-result_manager_tests/result_manager_tests.o: result_manager_tests/result_manager_tests.cpp.o
-
-.PHONY : result_manager_tests/result_manager_tests.o
-
-# target to build an object file
-result_manager_tests/result_manager_tests.cpp.o:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.o
-.PHONY : result_manager_tests/result_manager_tests.cpp.o
-
-result_manager_tests/result_manager_tests.i: result_manager_tests/result_manager_tests.cpp.i
-
-.PHONY : result_manager_tests/result_manager_tests.i
-
-# target to preprocess a source file
-result_manager_tests/result_manager_tests.cpp.i:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.i
-.PHONY : result_manager_tests/result_manager_tests.cpp.i
-
-result_manager_tests/result_manager_tests.s: result_manager_tests/result_manager_tests.cpp.s
-
-.PHONY : result_manager_tests/result_manager_tests.s
-
-# target to generate assembly for a file
-result_manager_tests/result_manager_tests.cpp.s:
-	cd /mnt/c/Users/GloriousSir/CLionProjects/battleships/cmake-build-debug-coverage && $(MAKE) -f boost_tests/CMakeFiles/boost_tests_run.dir/build.make boost_tests/CMakeFiles/boost_tests_run.dir/result_manager_tests/result_manager_tests.cpp.s
-.PHONY : result_manager_tests/result_manager_tests.cpp.s
 
 ship_tests/ext_ship_mine_tests.o: ship_tests/ext_ship_mine_tests.cpp.o
 
@@ -1034,18 +1196,18 @@ help:
 	@echo "... __/src/game/game.o"
 	@echo "... __/src/game/game.i"
 	@echo "... __/src/game/game.s"
+	@echo "... __/src/game/game_state/action_state_base.o"
+	@echo "... __/src/game/game_state/action_state_base.i"
+	@echo "... __/src/game/game_state/action_state_base.s"
+	@echo "... __/src/game/game_state/ext_game_state.o"
+	@echo "... __/src/game/game_state/ext_game_state.i"
+	@echo "... __/src/game/game_state/ext_game_state.s"
 	@echo "... __/src/game/game_state/game_state_base.o"
 	@echo "... __/src/game/game_state/game_state_base.i"
 	@echo "... __/src/game/game_state/game_state_base.s"
 	@echo "... __/src/game/game_state/std_game_state.o"
 	@echo "... __/src/game/game_state/std_game_state.i"
 	@echo "... __/src/game/game_state/std_game_state.s"
-	@echo "... __/src/game/player_manager/player_manager_base.o"
-	@echo "... __/src/game/player_manager/player_manager_base.i"
-	@echo "... __/src/game/player_manager/player_manager_base.s"
-	@echo "... __/src/game/player_manager/std_player_manager.o"
-	@echo "... __/src/game/player_manager/std_player_manager.i"
-	@echo "... __/src/game/player_manager/std_player_manager.s"
 	@echo "... __/src/game/result_manager/result_manager.o"
 	@echo "... __/src/game/result_manager/result_manager.i"
 	@echo "... __/src/game/result_manager/result_manager.s"
@@ -1088,6 +1250,27 @@ help:
 	@echo "... __/src/ui/console_user_interface.o"
 	@echo "... __/src/ui/console_user_interface.i"
 	@echo "... __/src/ui/console_user_interface.s"
+	@echo "... __/src/ui/renderable/renderable_base.o"
+	@echo "... __/src/ui/renderable/renderable_base.i"
+	@echo "... __/src/ui/renderable/renderable_base.s"
+	@echo "... __/src/ui/renderable/renderable_menu.o"
+	@echo "... __/src/ui/renderable/renderable_menu.i"
+	@echo "... __/src/ui/renderable/renderable_menu.s"
+	@echo "... __/src/ui/renderable/renderable_message.o"
+	@echo "... __/src/ui/renderable/renderable_message.i"
+	@echo "... __/src/ui/renderable/renderable_message.s"
+	@echo "... __/src/ui/renderable/renderable_results_board.o"
+	@echo "... __/src/ui/renderable/renderable_results_board.i"
+	@echo "... __/src/ui/renderable/renderable_results_board.s"
+	@echo "... __/src/ui/renderable/renderable_ship.o"
+	@echo "... __/src/ui/renderable/renderable_ship.i"
+	@echo "... __/src/ui/renderable/renderable_ship.s"
+	@echo "... __/src/ui/renderable/renderable_table.o"
+	@echo "... __/src/ui/renderable/renderable_table.i"
+	@echo "... __/src/ui/renderable/renderable_table.s"
+	@echo "... __/src/ui/renderable/renderable_turn_indicator.o"
+	@echo "... __/src/ui/renderable/renderable_turn_indicator.i"
+	@echo "... __/src/ui/renderable/renderable_turn_indicator.s"
 	@echo "... __/src/ui/user_interface_base.o"
 	@echo "... __/src/ui/user_interface_base.i"
 	@echo "... __/src/ui/user_interface_base.s"
@@ -1103,9 +1286,6 @@ help:
 	@echo "... player_tests/std_player_tests.o"
 	@echo "... player_tests/std_player_tests.i"
 	@echo "... player_tests/std_player_tests.s"
-	@echo "... result_manager_tests/result_manager_tests.o"
-	@echo "... result_manager_tests/result_manager_tests.i"
-	@echo "... result_manager_tests/result_manager_tests.s"
 	@echo "... ship_tests/ext_ship_mine_tests.o"
 	@echo "... ship_tests/ext_ship_mine_tests.i"
 	@echo "... ship_tests/ext_ship_mine_tests.s"

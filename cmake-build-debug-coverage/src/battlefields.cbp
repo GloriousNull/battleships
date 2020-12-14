@@ -143,9 +143,6 @@
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/player_tests/std_player_tests.cpp">
 			<Option target="boost_tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/result_manager_tests/result_manager_tests.cpp">
-			<Option target="boost_tests_run"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/boost_tests/ship_tests/ext_ship_mine_tests.cpp">
 			<Option target="boost_tests_run"/>
 		</Unit>
@@ -198,6 +195,22 @@
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/action_state_base.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/ext_game_state.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/game_state_base.cpp">
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
@@ -220,30 +233,13 @@
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.cpp">
-			<Option target="battlefields"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/game_state/web_game_state.h">
-			<Option target="battlefields"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.cpp">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager.h">
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/player_manager_base.h">
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.cpp">
-			<Option target="battlefields"/>
-			<Option target="boost_tests_run"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/std_player_manager.h">
-			<Option target="battlefields"/>
-			<Option target="boost_tests_run"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.cpp">
-			<Option target="battlefields"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/player_manager/user.h">
 			<Option target="battlefields"/>
@@ -259,12 +255,6 @@
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/result_manager/result_manager.h">
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.cpp">
-			<Option target="battlefields"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/game/state_manager/state_manager_base.h">
-			<Option target="battlefields"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/input/AI/std_ai.cpp">
 			<Option target="battlefields"/>
@@ -390,21 +380,59 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.cpp">
 			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_base.h">
 			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.cpp">
 			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_menu.h">
 			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_message.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_results_board.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_ship.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.cpp">
 			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_table.h">
 			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.cpp">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/renderable/renderable_turn_indicator.h">
+			<Option target="battlefields"/>
+			<Option target="boost_tests_run"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/ui/user_interface_base.cpp">
 			<Option target="battlefields"/>
@@ -438,7 +466,10 @@
 			<Option target="battlefields"/>
 			<Option target="boost_tests_run"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/web/message/std_message.h">
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/web/message/db_message.h">
+			<Option target="battlefields"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/web/message/input_message.h">
 			<Option target="battlefields"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/GloriousSir/CLionProjects/battleships/src/web/message/web_message.h">

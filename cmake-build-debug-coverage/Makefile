@@ -244,6 +244,60 @@ src/game/game.cpp.s:
 	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game.cpp.s
 .PHONY : src/game/game.cpp.s
 
+src/game/game_state/action_state_base.o: src/game/game_state/action_state_base.cpp.o
+
+.PHONY : src/game/game_state/action_state_base.o
+
+# target to build an object file
+src/game/game_state/action_state_base.cpp.o:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.o
+.PHONY : src/game/game_state/action_state_base.cpp.o
+
+src/game/game_state/action_state_base.i: src/game/game_state/action_state_base.cpp.i
+
+.PHONY : src/game/game_state/action_state_base.i
+
+# target to preprocess a source file
+src/game/game_state/action_state_base.cpp.i:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.i
+.PHONY : src/game/game_state/action_state_base.cpp.i
+
+src/game/game_state/action_state_base.s: src/game/game_state/action_state_base.cpp.s
+
+.PHONY : src/game/game_state/action_state_base.s
+
+# target to generate assembly for a file
+src/game/game_state/action_state_base.cpp.s:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/action_state_base.cpp.s
+.PHONY : src/game/game_state/action_state_base.cpp.s
+
+src/game/game_state/ext_game_state.o: src/game/game_state/ext_game_state.cpp.o
+
+.PHONY : src/game/game_state/ext_game_state.o
+
+# target to build an object file
+src/game/game_state/ext_game_state.cpp.o:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.o
+.PHONY : src/game/game_state/ext_game_state.cpp.o
+
+src/game/game_state/ext_game_state.i: src/game/game_state/ext_game_state.cpp.i
+
+.PHONY : src/game/game_state/ext_game_state.i
+
+# target to preprocess a source file
+src/game/game_state/ext_game_state.cpp.i:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.i
+.PHONY : src/game/game_state/ext_game_state.cpp.i
+
+src/game/game_state/ext_game_state.s: src/game/game_state/ext_game_state.cpp.s
+
+.PHONY : src/game/game_state/ext_game_state.s
+
+# target to generate assembly for a file
+src/game/game_state/ext_game_state.cpp.s:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/ext_game_state.cpp.s
+.PHONY : src/game/game_state/ext_game_state.cpp.s
+
 src/game/game_state/game_state_base.o: src/game/game_state/game_state_base.cpp.o
 
 .PHONY : src/game/game_state/game_state_base.o
@@ -325,114 +379,6 @@ src/game/game_state/std_game_state.cpp.s:
 	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/std_game_state.cpp.s
 .PHONY : src/game/game_state/std_game_state.cpp.s
 
-src/game/game_state/web_game_state.o: src/game/game_state/web_game_state.cpp.o
-
-.PHONY : src/game/game_state/web_game_state.o
-
-# target to build an object file
-src/game/game_state/web_game_state.cpp.o:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.o
-.PHONY : src/game/game_state/web_game_state.cpp.o
-
-src/game/game_state/web_game_state.i: src/game/game_state/web_game_state.cpp.i
-
-.PHONY : src/game/game_state/web_game_state.i
-
-# target to preprocess a source file
-src/game/game_state/web_game_state.cpp.i:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.i
-.PHONY : src/game/game_state/web_game_state.cpp.i
-
-src/game/game_state/web_game_state.s: src/game/game_state/web_game_state.cpp.s
-
-.PHONY : src/game/game_state/web_game_state.s
-
-# target to generate assembly for a file
-src/game/game_state/web_game_state.cpp.s:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/game_state/web_game_state.cpp.s
-.PHONY : src/game/game_state/web_game_state.cpp.s
-
-src/game/player_manager/player_manager_base.o: src/game/player_manager/player_manager_base.cpp.o
-
-.PHONY : src/game/player_manager/player_manager_base.o
-
-# target to build an object file
-src/game/player_manager/player_manager_base.cpp.o:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.o
-.PHONY : src/game/player_manager/player_manager_base.cpp.o
-
-src/game/player_manager/player_manager_base.i: src/game/player_manager/player_manager_base.cpp.i
-
-.PHONY : src/game/player_manager/player_manager_base.i
-
-# target to preprocess a source file
-src/game/player_manager/player_manager_base.cpp.i:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.i
-.PHONY : src/game/player_manager/player_manager_base.cpp.i
-
-src/game/player_manager/player_manager_base.s: src/game/player_manager/player_manager_base.cpp.s
-
-.PHONY : src/game/player_manager/player_manager_base.s
-
-# target to generate assembly for a file
-src/game/player_manager/player_manager_base.cpp.s:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/player_manager_base.cpp.s
-.PHONY : src/game/player_manager/player_manager_base.cpp.s
-
-src/game/player_manager/std_player_manager.o: src/game/player_manager/std_player_manager.cpp.o
-
-.PHONY : src/game/player_manager/std_player_manager.o
-
-# target to build an object file
-src/game/player_manager/std_player_manager.cpp.o:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.o
-.PHONY : src/game/player_manager/std_player_manager.cpp.o
-
-src/game/player_manager/std_player_manager.i: src/game/player_manager/std_player_manager.cpp.i
-
-.PHONY : src/game/player_manager/std_player_manager.i
-
-# target to preprocess a source file
-src/game/player_manager/std_player_manager.cpp.i:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.i
-.PHONY : src/game/player_manager/std_player_manager.cpp.i
-
-src/game/player_manager/std_player_manager.s: src/game/player_manager/std_player_manager.cpp.s
-
-.PHONY : src/game/player_manager/std_player_manager.s
-
-# target to generate assembly for a file
-src/game/player_manager/std_player_manager.cpp.s:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/std_player_manager.cpp.s
-.PHONY : src/game/player_manager/std_player_manager.cpp.s
-
-src/game/player_manager/user.o: src/game/player_manager/user.cpp.o
-
-.PHONY : src/game/player_manager/user.o
-
-# target to build an object file
-src/game/player_manager/user.cpp.o:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.o
-.PHONY : src/game/player_manager/user.cpp.o
-
-src/game/player_manager/user.i: src/game/player_manager/user.cpp.i
-
-.PHONY : src/game/player_manager/user.i
-
-# target to preprocess a source file
-src/game/player_manager/user.cpp.i:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.i
-.PHONY : src/game/player_manager/user.cpp.i
-
-src/game/player_manager/user.s: src/game/player_manager/user.cpp.s
-
-.PHONY : src/game/player_manager/user.s
-
-# target to generate assembly for a file
-src/game/player_manager/user.cpp.s:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/player_manager/user.cpp.s
-.PHONY : src/game/player_manager/user.cpp.s
-
 src/game/result_manager/result_manager.o: src/game/result_manager/result_manager.cpp.o
 
 .PHONY : src/game/result_manager/result_manager.o
@@ -459,33 +405,6 @@ src/game/result_manager/result_manager.s: src/game/result_manager/result_manager
 src/game/result_manager/result_manager.cpp.s:
 	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/result_manager/result_manager.cpp.s
 .PHONY : src/game/result_manager/result_manager.cpp.s
-
-src/game/state_manager/state_manager_base.o: src/game/state_manager/state_manager_base.cpp.o
-
-.PHONY : src/game/state_manager/state_manager_base.o
-
-# target to build an object file
-src/game/state_manager/state_manager_base.cpp.o:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.o
-.PHONY : src/game/state_manager/state_manager_base.cpp.o
-
-src/game/state_manager/state_manager_base.i: src/game/state_manager/state_manager_base.cpp.i
-
-.PHONY : src/game/state_manager/state_manager_base.i
-
-# target to preprocess a source file
-src/game/state_manager/state_manager_base.cpp.i:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.i
-.PHONY : src/game/state_manager/state_manager_base.cpp.i
-
-src/game/state_manager/state_manager_base.s: src/game/state_manager/state_manager_base.cpp.s
-
-.PHONY : src/game/state_manager/state_manager_base.s
-
-# target to generate assembly for a file
-src/game/state_manager/state_manager_base.cpp.s:
-	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/game/state_manager/state_manager_base.cpp.s
-.PHONY : src/game/state_manager/state_manager_base.cpp.s
 
 src/input/AI/std_ai.o: src/input/AI/std_ai.cpp.o
 
@@ -946,6 +865,87 @@ src/ui/renderable/renderable_menu.cpp.s:
 	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_menu.cpp.s
 .PHONY : src/ui/renderable/renderable_menu.cpp.s
 
+src/ui/renderable/renderable_message.o: src/ui/renderable/renderable_message.cpp.o
+
+.PHONY : src/ui/renderable/renderable_message.o
+
+# target to build an object file
+src/ui/renderable/renderable_message.cpp.o:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.o
+.PHONY : src/ui/renderable/renderable_message.cpp.o
+
+src/ui/renderable/renderable_message.i: src/ui/renderable/renderable_message.cpp.i
+
+.PHONY : src/ui/renderable/renderable_message.i
+
+# target to preprocess a source file
+src/ui/renderable/renderable_message.cpp.i:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.i
+.PHONY : src/ui/renderable/renderable_message.cpp.i
+
+src/ui/renderable/renderable_message.s: src/ui/renderable/renderable_message.cpp.s
+
+.PHONY : src/ui/renderable/renderable_message.s
+
+# target to generate assembly for a file
+src/ui/renderable/renderable_message.cpp.s:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_message.cpp.s
+.PHONY : src/ui/renderable/renderable_message.cpp.s
+
+src/ui/renderable/renderable_results_board.o: src/ui/renderable/renderable_results_board.cpp.o
+
+.PHONY : src/ui/renderable/renderable_results_board.o
+
+# target to build an object file
+src/ui/renderable/renderable_results_board.cpp.o:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.o
+.PHONY : src/ui/renderable/renderable_results_board.cpp.o
+
+src/ui/renderable/renderable_results_board.i: src/ui/renderable/renderable_results_board.cpp.i
+
+.PHONY : src/ui/renderable/renderable_results_board.i
+
+# target to preprocess a source file
+src/ui/renderable/renderable_results_board.cpp.i:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.i
+.PHONY : src/ui/renderable/renderable_results_board.cpp.i
+
+src/ui/renderable/renderable_results_board.s: src/ui/renderable/renderable_results_board.cpp.s
+
+.PHONY : src/ui/renderable/renderable_results_board.s
+
+# target to generate assembly for a file
+src/ui/renderable/renderable_results_board.cpp.s:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_results_board.cpp.s
+.PHONY : src/ui/renderable/renderable_results_board.cpp.s
+
+src/ui/renderable/renderable_ship.o: src/ui/renderable/renderable_ship.cpp.o
+
+.PHONY : src/ui/renderable/renderable_ship.o
+
+# target to build an object file
+src/ui/renderable/renderable_ship.cpp.o:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.o
+.PHONY : src/ui/renderable/renderable_ship.cpp.o
+
+src/ui/renderable/renderable_ship.i: src/ui/renderable/renderable_ship.cpp.i
+
+.PHONY : src/ui/renderable/renderable_ship.i
+
+# target to preprocess a source file
+src/ui/renderable/renderable_ship.cpp.i:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.i
+.PHONY : src/ui/renderable/renderable_ship.cpp.i
+
+src/ui/renderable/renderable_ship.s: src/ui/renderable/renderable_ship.cpp.s
+
+.PHONY : src/ui/renderable/renderable_ship.s
+
+# target to generate assembly for a file
+src/ui/renderable/renderable_ship.cpp.s:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_ship.cpp.s
+.PHONY : src/ui/renderable/renderable_ship.cpp.s
+
 src/ui/renderable/renderable_table.o: src/ui/renderable/renderable_table.cpp.o
 
 .PHONY : src/ui/renderable/renderable_table.o
@@ -972,6 +972,33 @@ src/ui/renderable/renderable_table.s: src/ui/renderable/renderable_table.cpp.s
 src/ui/renderable/renderable_table.cpp.s:
 	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_table.cpp.s
 .PHONY : src/ui/renderable/renderable_table.cpp.s
+
+src/ui/renderable/renderable_turn_indicator.o: src/ui/renderable/renderable_turn_indicator.cpp.o
+
+.PHONY : src/ui/renderable/renderable_turn_indicator.o
+
+# target to build an object file
+src/ui/renderable/renderable_turn_indicator.cpp.o:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.o
+.PHONY : src/ui/renderable/renderable_turn_indicator.cpp.o
+
+src/ui/renderable/renderable_turn_indicator.i: src/ui/renderable/renderable_turn_indicator.cpp.i
+
+.PHONY : src/ui/renderable/renderable_turn_indicator.i
+
+# target to preprocess a source file
+src/ui/renderable/renderable_turn_indicator.cpp.i:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.i
+.PHONY : src/ui/renderable/renderable_turn_indicator.cpp.i
+
+src/ui/renderable/renderable_turn_indicator.s: src/ui/renderable/renderable_turn_indicator.cpp.s
+
+.PHONY : src/ui/renderable/renderable_turn_indicator.s
+
+# target to generate assembly for a file
+src/ui/renderable/renderable_turn_indicator.cpp.s:
+	$(MAKE) -f CMakeFiles/battlefields.dir/build.make CMakeFiles/battlefields.dir/src/ui/renderable/renderable_turn_indicator.cpp.s
+.PHONY : src/ui/renderable/renderable_turn_indicator.cpp.s
 
 src/ui/user_interface_base.o: src/ui/user_interface_base.cpp.o
 
@@ -1049,6 +1076,12 @@ help:
 	@echo "... src/game/game.o"
 	@echo "... src/game/game.i"
 	@echo "... src/game/game.s"
+	@echo "... src/game/game_state/action_state_base.o"
+	@echo "... src/game/game_state/action_state_base.i"
+	@echo "... src/game/game_state/action_state_base.s"
+	@echo "... src/game/game_state/ext_game_state.o"
+	@echo "... src/game/game_state/ext_game_state.i"
+	@echo "... src/game/game_state/ext_game_state.s"
 	@echo "... src/game/game_state/game_state_base.o"
 	@echo "... src/game/game_state/game_state_base.i"
 	@echo "... src/game/game_state/game_state_base.s"
@@ -1058,24 +1091,9 @@ help:
 	@echo "... src/game/game_state/std_game_state.o"
 	@echo "... src/game/game_state/std_game_state.i"
 	@echo "... src/game/game_state/std_game_state.s"
-	@echo "... src/game/game_state/web_game_state.o"
-	@echo "... src/game/game_state/web_game_state.i"
-	@echo "... src/game/game_state/web_game_state.s"
-	@echo "... src/game/player_manager/player_manager_base.o"
-	@echo "... src/game/player_manager/player_manager_base.i"
-	@echo "... src/game/player_manager/player_manager_base.s"
-	@echo "... src/game/player_manager/std_player_manager.o"
-	@echo "... src/game/player_manager/std_player_manager.i"
-	@echo "... src/game/player_manager/std_player_manager.s"
-	@echo "... src/game/player_manager/user.o"
-	@echo "... src/game/player_manager/user.i"
-	@echo "... src/game/player_manager/user.s"
 	@echo "... src/game/result_manager/result_manager.o"
 	@echo "... src/game/result_manager/result_manager.i"
 	@echo "... src/game/result_manager/result_manager.s"
-	@echo "... src/game/state_manager/state_manager_base.o"
-	@echo "... src/game/state_manager/state_manager_base.i"
-	@echo "... src/game/state_manager/state_manager_base.s"
 	@echo "... src/input/AI/std_ai.o"
 	@echo "... src/input/AI/std_ai.i"
 	@echo "... src/input/AI/std_ai.s"
@@ -1127,9 +1145,21 @@ help:
 	@echo "... src/ui/renderable/renderable_menu.o"
 	@echo "... src/ui/renderable/renderable_menu.i"
 	@echo "... src/ui/renderable/renderable_menu.s"
+	@echo "... src/ui/renderable/renderable_message.o"
+	@echo "... src/ui/renderable/renderable_message.i"
+	@echo "... src/ui/renderable/renderable_message.s"
+	@echo "... src/ui/renderable/renderable_results_board.o"
+	@echo "... src/ui/renderable/renderable_results_board.i"
+	@echo "... src/ui/renderable/renderable_results_board.s"
+	@echo "... src/ui/renderable/renderable_ship.o"
+	@echo "... src/ui/renderable/renderable_ship.i"
+	@echo "... src/ui/renderable/renderable_ship.s"
 	@echo "... src/ui/renderable/renderable_table.o"
 	@echo "... src/ui/renderable/renderable_table.i"
 	@echo "... src/ui/renderable/renderable_table.s"
+	@echo "... src/ui/renderable/renderable_turn_indicator.o"
+	@echo "... src/ui/renderable/renderable_turn_indicator.i"
+	@echo "... src/ui/renderable/renderable_turn_indicator.s"
 	@echo "... src/ui/user_interface_base.o"
 	@echo "... src/ui/user_interface_base.i"
 	@echo "... src/ui/user_interface_base.s"

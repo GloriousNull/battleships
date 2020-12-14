@@ -4,6 +4,11 @@
 
 #include "ext_player_base.h"
 
+std::unique_ptr<renderable_message> ext_player_base::get_render_info() const
+{
+    return get_render_info_impl();
+}
+
 bool ext_player_base::has_duty() const
 {
     return has_duty_impl();

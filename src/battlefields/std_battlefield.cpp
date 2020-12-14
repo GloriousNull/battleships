@@ -126,5 +126,6 @@ bool std_battlefield::reveal_impl(const coordinate_2d<std::size_t> & point)
 
 std::shared_ptr<ship_base> std_battlefield::get_ship_impl(const coordinate_2d<std::size_t> & point)
 {
-    return field[point.get_y()][point.get_x()].containable_ship;
+    return field[point.get_y()][point.get_x()]._status == point_info::status::burning ? nullptr
+           : field[point.get_y()][point.get_x()].containable_ship;
 }

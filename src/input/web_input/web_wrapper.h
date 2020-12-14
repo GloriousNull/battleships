@@ -14,13 +14,13 @@ namespace ba = boost::asio;
 class web_wrapper final : public input_handler_base
 {
 private:
-    ba::ip::tcp::socket & socket;
+    std::shared_ptr<ba::ip::tcp::socket> socket;
     std_console_input_handler handler;
 
     bool poll_event_impl(game_event &) override;
 
 public:
-    web_wrapper(ba::ip::tcp::socket & socket)
+    web_wrapper(std::shared_ptr<ba::ip::tcp::socket> socket)
     : socket{socket} {}
 };
 

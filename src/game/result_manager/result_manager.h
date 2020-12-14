@@ -7,18 +7,22 @@
 
 #include "../../utils/database/database.h"
 #include "game_result.h"
+#include "boost/asio.hpp"
 
 #include <vector>
+
+namespace ba = boost::asio;
 
 class result_manager
 {
 private:
-    database db;
+    std::unique_ptr<ba::ip::tcp::socket> socket;
 public:
-    result_manager() : db("file:/home/spector/db/game_results.db") {}
+    result_manager() : socket{nullptr} {}
 
-    std::vector<game_result> receive(const std::string & user_name = "");
-    void send(const game_result &);
+    std::vector<game_result> receive() const;
+    void send(const game_result &) const;
+    void set_context(ba::io_context & context);
 };
 
 

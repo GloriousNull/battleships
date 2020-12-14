@@ -6,12 +6,14 @@
 #include "../std_player/std_player.h"
 #include "../../ships/ext_ship/ext_ship_base.h"
 #include "../../ext_game_config.h"
+#include "../../ships/ext_ship/ext_ship_mine.h"
+#include "../../ships/ext_ship/ext_ship_minesweeper.h"
 
 ext_player::ext_player()
 {
     this->_duty = nullptr;
     this->field = std::make_unique<std_battlefield>();
-    this->ship_counter = std::vector<std::size_t>(4,0);
+    this->ship_counter = std::vector<std::size_t>(6,0);
 }
 
 bool ext_player::has_duty_impl() const
@@ -39,18 +41,16 @@ bool ext_player::kill_self_impl(const coordinate_2d<std::size_t> & point)
 {
     bool is_revealed = this->field->reveal(point);
 
-    auto ship = is_revealed ? this->field->get_ship(point) : nullptr;
+    auto ship = this->field->get_ship(point);
 
-    is_revealed = is_revealed && ship;
-
-    if (is_revealed)
+    if (ship)
     {
         ship->apply_damage();
 
         this->field->remove_ship_segment(point);
     }
 
-    return is_revealed;
+    return is_revealed || ship;
 }
 
 bool ext_player::is_ready_impl() const
@@ -58,12 +58,14 @@ bool ext_player::is_ready_impl() const
     return ship_counter[0] == EXT_MAX_DECKS[0] &&
            ship_counter[1] == EXT_MAX_DECKS[1] &&
            ship_counter[2] == EXT_MAX_DECKS[2] &&
-           ship_counter[3] == EXT_MAX_DECKS[3];
+           ship_counter[3] == EXT_MAX_DECKS[3] &&
+           ship_counter[4] == EXT_MAX_MINE_DECKS &&
+           ship_counter[5] == EXT_MAX_MINESWEEPER_DECKS;
 }
 
 std::size_t ext_player::amount_of_owned_ships_impl() const
 {
-    return ship_counter[0]+ship_counter[1]+ship_counter[2]+ship_counter[3];
+    return ship_counter[0]+ship_counter[1]+ship_counter[2]+ship_counter[3]+ship_counter[4]+ship_counter[5];
 }
 
 std::tuple<bool, bool> ext_player::attack_impl(std::unique_ptr<player_base> & player_to_attack,
@@ -71,7 +73,7 @@ std::tuple<bool, bool> ext_player::attack_impl(std::unique_ptr<player_base> & pl
 {
     bool is_revealed = player_to_attack->field->reveal(coordinate_to_attack);
 
-    auto ship = is_revealed ? player_to_attack->field->get_ship(coordinate_to_attack) : nullptr;
+    auto ship = player_to_attack->field->get_ship(coordinate_to_attack);
 
     if (ship)
     {
@@ -82,6 +84,14 @@ std::tuple<bool, bool> ext_player::attack_impl(std::unique_ptr<player_base> & pl
         if (ship->is_destroyed())
         {
             auto checked_ship = dynamic_cast<ext_ship_base*>(ship.get());
+
+            if (dynamic_cast<ext_ship_mine*>(ship.get()))
+                --player_to_attack->ship_counter[4];
+            else
+            if (dynamic_cast<ext_ship_minesweeper*>(ship.get()))
+                --player_to_attack->ship_counter[5];
+            else
+                --player_to_attack->ship_counter[ship->size()-1];
 
             if (checked_ship)
                 this->_duty = std::make_unique<duty<ext_player_base &, const coordinate_2d<std::size_t> &>>
@@ -98,7 +108,20 @@ bool ext_player::place_ship_impl(const std::shared_ptr<ship_base> & ship_to_plac
     bool placed = this->field->place_ship(ship_to_place, _segment);
 
     if (placed)
-        ++ship_counter[ship_to_place->size()-1];
+    {
+        if (dynamic_cast<ext_ship_mine*>(ship_to_place.get()))
+            ++this->ship_counter[4];
+        else
+        if (dynamic_cast<ext_ship_minesweeper*>(ship_to_place.get()))
+            ++this->ship_counter[5];
+        else
+            ++this->ship_counter[ship_to_place->size()-1];
+    }
 
     return placed;
+}
+
+std::unique_ptr<renderable_message> ext_player::get_render_info_impl() const
+{
+    return std::make_unique<renderable_message>(_duty->get_message());
 }
